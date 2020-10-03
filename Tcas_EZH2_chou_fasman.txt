@@ -1,0 +1,81 @@
+
+                   *         *         *         *         *         *         
+Query 1   MSKVKVSNEWKRHVKQEYIRLRQQKRFKRADDVKLAWNQNRIKMTENLIAEQKRWTESKAFWVPLPEIPS 70 
+Helix 1   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH    70 
+Sheet 1                EEEEEEEEE             EEEEEEEEEEEEE            EEEE       70 
+Turns 1    T     T   T   T      T T   T         TT     T     TT   TTT          T 70 
+Struc 1   HHHHHHHHHHHHHHHEEEEHEHHHHHHHTHHHHHHHEEEEHEHHHHEHHHHHHHHHHHHHEEEHHHHCCT 70 
+
+                   *         *         *         *         *         *         
+Query 71  HVTCMKKAEVIGNEGDIQVTPIRIINAVTPIPTMYTWAPIQQNFMVEDETVLHNIPYMGDDLLDQDGTFI 140 
+Helix 71  HHHHHHHHHHHHHHHHHHHHHHHHHHH         HHHHHHHHHHHHHHHH     HHHHHHHH   HH 140 
+Sheet 71   EEE            EEEEEEEEEEEEEEEEEEEEEEEEEEEEE    EEE            EEEEEE 140 
+Turns 71              T T                          T     T           T    TTT    140 
+Struc 71  HEEHHHHHHHHHTHTHEEEEEEEEEEEEEEEEEEEEEHEEEEEHHHHHHEEECCCCCHHHHHHHTTEEHH 140 
+
+                   *         *         *         *         *         *         
+Query 141 EELIKNYDGKVHGDRESGFIDDELFVELVHALMQYQDSDKGEKKDKDKEKTKEEEKKKGLDFPAFIIFQA 210 
+Helix 141 HHHH            HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH 210 
+Sheet 141 EEEE                EEEEEEEEEEEEEEE                          EEEEEEEEE 210 
+Turns 141         T    T  T    T              T           T   T    T             210 
+Struc 141 HHEECCCCTCCCCTCCTHHHHHHHHEHEEHHEEEEHTHHHHHHHHHHHHHHHHHHHHTHHHHEEEEEEHH 210 
+
+                   *         *         *         *         *         *         
+Query 211 ISSQFPDKGDPEELREKYIELTERTDPNAPPECTPNIDGPKAASVPREQTMHSFHTLFCRRCFKYDCFLH 280 
+Helix 211 HHHH       HHHHHHHHHHHH                 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHH 280 
+Sheet 211 E                EEEE                           EEEEEEEEEEEEEEEEEEEEEE 280 
+Turns 211   T   T    T   T      T   T   T   T   TT      TT                       280 
+Struc 211 EHTHCCTCCCCHHHHHHEHHHHHCCCTCCCTCCCTCCCTTHHHHHHHHHHHHEEEEEEEEEEEEEEEEEH 280 
+
+                   *         *         *         *         *         *         
+Query 281 RLQACHPGPNLQKRRGPDLKPFTEPCSADCYMLLESVKERMAAKAKQEEEAKGKSVTEAGSSTEAKTNGN 350 
+Helix 281 HHH               HH         HHHHHHHHHHHHHHHHHHHHHHHHHHHHH             350 
+Sheet 281 EEE                          EEEEE                                     350 
+Turns 281        TT   T   T      T              T       T T   TT      T       T  350 
+Struc 281 HHHCCCCTTCCCTCCCTCHHCCCTCCCCCEEHHHHHHHHHHHHHHHHHHHHHTTHHHHCCTCCCCCCCTC 350 
+
+                   *         *         *         *         *         *         
+Query 351 SNPRKVCKQQSVDSGNEASSEDSNDSNKYKDSTDQDQVSTTTSFSLLGLMGANDHKEWTGSDESLFRGLH 420 
+Helix 351     HHHHHHHH                     HHHHHHHHHHHHHHHHHHHHHHHH       HHHHHH 420 
+Sheet 351      EEEEE                      EEEEEEEEEEEEEEEEE                  EEE 420 
+Turns 351    T    TT   T T   T      T   T   TT                   T   TT T        420 
+Struc 351 CCCTHEEHETHHCTCTCCCTCCCCCCTCCCTCEHETEEEEEEEEEEHEHHHHHHHHHCCTTCTCHHHHEE 420 
+
+                   *         *         *         *         *         *         
+Query 421 KIFLNNYCAIAQIMLTKTCQQVYEFAQKEDADIPDEEAMRDYTPPRKKKKKHRLWSVHCRKIQLKKESNS 490 
+Helix 421 HHH     HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH      HHHHHHHHHHHHHHHHHHHH     490 
+Sheet 421 EEEEEEEEEEEEEEEEEEEEEEEEE                            EEEEEEEEE         490 
+Turns 421                           TTT     TT       TT    T               T   T 490 
+Struc 421 EEEEEEEEHEHEEHEEEEEEEEHHHHHHHHHHHHHHHHHHCCCTTCHHHHHHHEEEEHEEEEHHHTCCCT 490 
+
+                   *         *         *         *         *         *         
+Query 491 NHVYNFTPCDHPGQSCDTQCPCIGAQNFCEKFCQCSSDCQNRFPGCRCKAQCNTKQCPCYLAVRECDPDL 560 
+Helix 491                       HHHHHHHHHHHH                          HH         560 
+Sheet 491   EEEE       EEEEEEEEEEEEEEEEEEEEE              EEEEEEEEEEEEEEE      E 560 
+Turns 491             TT           T   T      T   T                          T   560 
+Struc 491 CCEEEECCCCCCTTEEEEEEEEEHHEHHHHEEEECCTCCCTCCCCCCCEEEEEEEEEEEEEHECCCCTCE 560 
+
+                   *         *         *         *         *         *         
+Query 561 CQTCGADQFDISKITCKNVSVQRGLHKHLLMAPSDVAGWGIFLKDSAQKNEFISEYCGEIISQDEADRRG 630 
+Helix 561   HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH    HHHHHHHH     630 
+Sheet 561 EEE       EEEEEEEEEEEE                EEEE         EEEEEEEEE           630 
+Turns 561       T               T          T          T   TT       T    TT   T T 630 
+Struc 561 EEEHHHTHHHEEEEEEEEEEEETHHHHHHHHHHHHHHHEEEHHHTHHHHHHHEEEEEEHEHHHHHHCTCT 630 
+
+                   *         *         *         *         *         *         
+Query 631 KVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHSINPNCYAKVMMVNGDHRIGIFAKRAIQPGEELFFD 700 
+Helix 631     HHHHHHHHH   HHHHHH     HH            HH         HHHHHHHHHHHHHHHHH  700 
+Sheet 631  EEEEEEEEEEEEEEEEEEE                   EEEEEEE                    EEEE 700 
+Turns 631                T        T T          T          T        TT   T T      700 
+Struc 631 CEEEEEEEEEEEEEEEEEEHHHCCTCTHHCCCCCCCCTCEEHHEEECCTCCCHHHHHHHHHHTHHHEEEE 700 
+
+                   *         * 
+Query 701 YRYGPTEQLKFVGIEREMEFL 721 
+Helix 701       HHHHHHHHHHHHHH  721 
+Sheet 701 EEEEEEEEEEEE          721 
+Turns 701     T T        T      721 
+Struc 701 EEEETEHHEEEEHHHHHHHHC 721 
+
+
+Total Residues: H: 475   E: 300   T: 110  
+       Percent: H: 65.9  E: 41.6  T: 15.3 
