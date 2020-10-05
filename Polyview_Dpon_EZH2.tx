@@ -1,0 +1,513 @@
+utput format is the following:
+1st line -> residue numeration
+2nd line -> query amino acid sequence
+3rd line -> trans-membrane domain prediction (T-TM region, N-soluble part)
+
+>    1                                                            60
+      MSKVKNTFDWKKRVKQEYLRLRQQKRYKRADDVKVAWNRNKEQMTDILISEQKRWTDGKA
+      NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+>   61                                                            120
+      CWVQNPDLSAHATCMKKAEVIGNEGDIQVASIKIINAVTPIPTMYTWAPIQQNFMVEDET
+      NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+>  121                                                            180
+      VLHNIPYMGDEILDQDGTFIEELIKNYDGKVHGDQESGFIDDELFIELVHALMQFQEKPE
+      NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+>  181                                                            240
+      EKKVDKKKEEKDLERDDLPNDEDDKQKSDLEFPSIVIFQAISSQFPDKGGSEELRDKYIE
+      NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+>  241                                                            300
+      LTERTDPSSPPECTPNIDGACAASVPREQTMHSFHTLFCRRCFKYDCFLHRLQACHPGPN
+      NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+>  301                                                            360
+      LQKRRGPDLKPFCEPCGPDCYIHLEDVKEKMAAKAKQEEETERVEKEKEQERDKKRKSLV
+      NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+>  361                                                            420
+      DLVEPRVAASSNSTNPRKICKQTSVDSGNEASSEDSNDSNKDCDNGDPVSTTTSFSLLGL
+      NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+>  421                                                            480
+      MGANDHNEWTGSDESLFRALHKVFLNNYCAIAQIILTKTCQQVYQFAKKEAADIPAEETM
+      NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+>  481                                                            540
+      RDYTPPRKKKKKHRLWSMHCRKIQLKKDSSSNHVYNFTPCDHPGQNCDNNCPCIGAQNFC
+      NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+>  541                                                            600
+      EKFCQCSSDCQNRFPGCRCKAQCNTKQCPCYLAVRECDPDLCQTCGADQFDITKITCKNV
+      NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+>  601                                                            660
+      SVQRGLHKHLLMAPSDVAGWGIFLKDSAQKNEFISEYCGEIISQDEADRRGKVYDKYMCS
+      NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+>  661                                                            720
+      FLFNLNNDFVVDATRKGNKIRFANHSINPNCYAKVMMVNGDHRIGIFAKRAIQPGEELFF
+      NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+
+>  721                      742
+      DYRYGPTEQLKFVGIEREMEFL
+      NNNNNNNNNNNNNNNNNNNNNN
+
+END_SECTION
+
+
+Query: Dpon_EZH2
+SECTION_SS
+Secondary structure prediction
+
+Output format is the following:
+1st line -> query sequence
+2nd line -> predicted secondary structure (H -> helix, E -> beta strand, C -> coil)
+3rd line -> confidence level (scale from 3 to 9, corresponding to p=0.3 or low confidence and p=0.9 or high confidence, respectively)
+
+>   1                                                              60
+     MSKVKNTFDWKKRVKQEYLRLRQQKRYKRADDVKVAWNRNKEQMTDILISEQKRWTDGKA
+     CCCCCCCHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHCCCC
+     666676757899999999999988788878899999998899999998888888874776
+
+>  61                                                             120
+     CWVQNPDLSAHATCMKKAEVIGNEGDIQVASIKIINAVTPIPTMYTWAPIQQNFMVEDET
+     CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCEEEEECCCCCCCCCCCC
+     667788888887777655457888876655544456777788655554455675456764
+
+> 121                                                             180
+     VLHNIPYMGDEILDQDGTFIEELIKNYDGKVHGDQESGFIDDELFIELVHALMQFQEKPE
+     EEECCCCCCCCCCCCCCHHHHHHHHHCCCCCCCCCCCCCCCHHHHHHHHHHHHHHCCCCC
+     444445568765678755799999875887778888887677999999999998557776
+
+> 181                                                             240
+     EKKVDKKKEEKDLERDDLPNDEDDKQKSDLEFPSIVIFQAISSQFPDKGGSEELRDKYIE
+     CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHCCCCCCCHHHHHHHHH
+     557788888877777788888888888888888877899999877888898567888899
+
+> 241                                                             300
+     LTERTDPSSPPECTPNIDGACAASVPREQTMHSFHTLFCRRCFKYDCFLHRLQACHPGPN
+     HHHCCCCCCCCCCCCCCCCCCCCCCCCCCCHHHHCCCCCCCCCEECCCCCCCCCCCCCCC
+     887788889888888888888888887555444445665544444444567787788888
+
+> 301                                                             360
+     LQKRRGPDLKPFCEPCGPDCYIHLEDVKEKMAAKAKQEEETERVEKEKEQERDKKRKSLV
+     CCCCCCCCCCCCCCCCCCCCCCCHHHHHHHHHCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+     888889899999888887554355566676667788776666667775577776677887
+
+> 361                                                             420
+     DLVEPRVAASSNSTNPRKICKQTSVDSGNEASSEDSNDSNKDCDNGDPVSTTTSFSLLGL
+     CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+     777777778888888888888888888888888888888877888888888877777777
+
+> 421                                                             480
+     MGANDHNEWTGSDESLFRALHKVFLNNYCAIAQIILTKTCQQVYQFAKKEAADIPAEETM
+     CCCCCCCCCCCCHHHHHHHHHHHHCCCHHHHHHHHCCCCHHHHHHHHHHHHCCCCCCCCC
+     788887777865689999999987776788999888887899999999865567877777
+
+> 481                                                             540
+     RDYTPPRKKKKKHRLWSMHCRKIQLKKDSSSNHVYNFTPCDHPGQNCDNNCPCIGAQNFC
+     CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCEECCCCCCCCCCCCCCCCCCCCCCCCCC
+     777888777777666666675545577888755556677788988888888888888765
+
+> 541                                                             600
+     EKFCQCSSDCQNRFPGCRCKAQCNTKQCPCYLAVRECDPDLCQTCGADQFDITKITCKNV
+     CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCEEEEEECCCCCCCCCCCCCCCCCCCCCCCC
+     455778888877788888888889887764455666487766678887777777666654
+
+> 601                                                             660
+     SVQRGLHKHLLMAPSDVAGWGIFLKDSAQKNEFISEYCGEIISQDEADRRGKVYDKYMCS
+     CCCCCCCCEEEEEECCCCCEEEEECCCCCCCCEEEEECCCECCHHHHHHHHHHHHHCCCE
+     334578875788866887746886444588877998745445889999999999868985
+
+> 661                                                             720
+     FLFNLNNDFVVDATRKGNKIRFANHSINPNCYAKVMMVNGDHRIGIFAKRAIQPGEELFF
+     EEEEECCCEEEECCCCCCCHEECCCCCCCCCEEEEEEECCCEEEEEEECCCCCCCCEEEE
+     999858975887456788433446788887578999977985899997567788875898
+
+> 721                                                             742
+     DYRYGPTEQLKFVGIEREMEFL
+     ECCCCCCCCCCCCCCCCCCCCC
+     7678988887545775467657
+END_SECTION
+
+SECTION_SS_PROBABILITIES
+Secondary structure prediction
+
+Output format is the following:
+1st line -> query sequence
+2nd line -> probability for helix
+3rd line -> probability for beta strand
+4rd line -> probability for coil
+
+>   1                                                                                                    25
+     M   S   K   V   K   N   T   F   D   W   K   K   R   V   K   Q   E   Y   L   R   L   R   Q   Q   K   
+H->  7   12  18  16  11  35  19  56  73  87  93  93  93  91  91  93  94  96  96  95  94  91  87  82  74  
+E->  27  26  20  14  10  3   4   3   3   1   1   0   0   0   0   0   0   0   0   0   0   0   0   1   1   
+C->  64  61  60  69  78  60  76  39  22  10  5   5   5   8   7   5   4   3   2   3   5   8   11  15  23  
+
+>  26                                                                                                    50
+     R   Y   K   R   A   D   D   V   K   V   A   W   N   R   N   K   E   Q   M   T   D   I   L   I   S   
+H->  81  84  80  74  83  89  94  96  97  96  95  94  90  80  87  91  95  95  95  95  94  90  89  88  87  
+E->  2   1   1   1   0   0   0   0   0   0   0   0   0   0   1   0   0   0   0   0   0   0   0   1   1   
+C->  16  13  17  24  16  9   4   2   2   2   3   4   9   19  11  7   4   3   3   3   5   8   9   9   11  
+
+>  51                                                                                                    75
+     E   Q   K   R   W   T   D   G   K   A   C   W   V   Q   N   P   D   L   S   A   H   A   T   C   M   
+H->  87  87  85  80  82  72  46  22  12  9   7   6   6   5   5   6   6   6   7   9   9   9   10  11  13  
+E->  1   0   1   2   2   2   4   5   11  21  25  25  21  14  9   7   8   8   8   8   8   11  16  17  15  
+C->  11  11  13  17  14  24  49  71  75  68  66  67  72  79  85  85  84  85  84  82  82  78  73  70  71  
+
+>  76                                                                                                   100
+     K   K   A   E   V   I   G   N   E   G   D   I   Q   V   A   S   I   K   I   I   N   A   V   T   P   
+H->  16  17  13  8   5   4   5   6   7   7   7   7   8   10  11  14  28  34  31  23  20  16  13  9   8   
+E->  16  22  33  41  36  24  13  7   6   8   13  22  30  34  36  31  24  24  25  20  15  12  11  11  12  
+C->  67  59  53  49  57  70  81  85  85  84  79  69  60  54  52  54  46  40  42  55  64  71  75  78  79  
+
+> 101                                                                                                   125
+     I   P   T   M   Y   T   W   A   P   I   Q   Q   N   F   M   V   E   D   E   T   V   L   H   N   I   
+H->  7   7   9   11  12  13  14  16  19  24  25  20  12  8   6   5   5   10  20  22  21  17  14  12  8   
+E->  10  12  25  51  59  59  53  43  31  22  17  15  16  31  46  42  25  13  14  28  43  46  43  42  41  
+C->  81  80  65  36  27  26  31  40  48  53  57  64  70  59  47  52  68  76  65  48  34  35  41  44  49  
+
+> 126                                                                                                   150
+     P   Y   M   G   D   E   I   L   D   Q   D   G   T   F   I   E   E   L   I   K   N   Y   D   G   K   
+H->  5   4   4   6   20  27  26  21  18  14  18  39  57  77  90  94  96  95  93  84  70  38  16  12  13  
+E->  40  41  29  11  4   7   14  16  10  5   2   2   2   2   1   0   0   0   0   0   0   1   1   3   8   
+C->  53  53  66  82  74  65  59  62  70  80  78  57  39  20  7   4   3   3   5   14  28  59  82  84  77  
+
+> 151                                                                                                   175
+     V   H   G   D   Q   E   S   G   F   I   D   D   E   L   F   I   E   L   V   H   A   L   M   Q   F   
+H->  8   5   6   9   9   9   8   8   13  18  21  77  90  93  94  97  97  97  97  96  94  90  93  85  52  
+E->  16  15  11  6   5   4   5   9   16  17  7   3   2   2   2   0   0   0   0   0   0   0   0   0   2   
+C->  75  79  82  83  85  85  86  81  70  64  70  18  6   3   2   1   1   1   1   2   5   8   6   13  44  
+
+> 176                                                                                                   200
+     Q   E   K   P   E   E   K   K   V   D   K   K   K   E   E   K   D   L   E   R   D   D   L   P   N   
+H->  37  24  22  23  32  42  43  18  12  9   9   9   8   9   13  15  14  14  15  16  14  10  7   6   7   
+E->  2   2   3   4   2   2   3   7   8   6   5   5   5   5   5   5   6   6   6   5   6   7   6   5   4   
+C->  59  73  74  71  64  55  53  74  79  84  85  85  86  84  80  78  78  78  78  77  78  82  85  87  87  
+
+> 201                                                                                                   225
+     D   E   D   D   K   Q   K   S   D   L   E   F   P   S   I   V   I   F   Q   A   I   S   S   Q   F   
+H->  8   9   10  9   9   8   8   9   10  9   12  10  10  10  17  77  89  95  96  97  97  95  89  74  14  
+E->  4   4   3   3   4   4   4   5   5   7   6   6   4   6   7   2   2   0   0   0   0   0   0   1   9   
+C->  86  86  86  86  85  86  86  85  83  82  80  83  84  83  74  19  8   3   2   2   2   4   10  24  76  
+
+> 226                                                                                                   250
+     P   D   K   G   G   S   E   E   L   R   D   K   Y   I   E   L   T   E   R   T   D   P   S   S   P   
+H->  9   10  9   14  5   14  50  61  74  80  83  84  87  90  90  87  83  75  17  12  8   7   14  4   13  
+E->  4   2   2   3   3   3   7   8   5   3   1   1   1   1   1   2   2   2   5   5   5   4   3   5   3   
+C->  85  87  87  82  90  82  42  30  20  16  14  13  11  7   7   10  13  21  77  81  86  87  81  90  82  
+
+> 251                                                                                                   275
+     P   E   C   T   P   N   I   D   G   A   C   A   A   S   V   P   R   E   Q   T   M   H   S   F   H   
+H->  10  9   12  10  12  11  12  10  11  12  12  12  12  9   9   7   20  37  38  39  44  46  46  44  38  
+E->  4   5   6   5   5   5   6   6   5   5   5   4   5   7   9   7   4   4   6   10  11  10  10  12  14  
+C->  85  85  81  83  82  83  80  82  83  81  81  82  82  83  81  85  75  58  54  50  44  42  42  43  47  
+
+> 276                                                                                                   300
+     T   L   F   C   R   R   C   F   K   Y   D   C   F   L   H   R   L   Q   A   C   H   P   G   P   N   
+H->  29  19  15  17  18  18  16  14  11  9   7   7   7   8   9   5   6   7   10  7   5   4   5   10  7   
+E->  13  17  21  22  27  34  39  42  44  46  45  45  44  37  29  23  16  12  10  17  12  8   6   5   7   
+C->  56  62  62  59  53  46  44  43  43  44  46  46  48  53  61  70  77  80  79  75  81  86  87  84  85  
+
+> 301                                                                                                   325
+     L   Q   K   R   R   G   P   D   L   K   P   F   C   E   P   C   G   P   D   C   Y   I   H   L   E   
+H->  8   7   10  8   6   4   8   4   4   4   5   6   9   9   7   5   8   22  36  30  29  26  23  53  59  
+E->  8   7   5   5   6   5   5   5   4   4   3   3   3   6   9   8   4   4   6   16  29  34  24  8   4   
+C->  83  84  83  86  87  90  86  90  91  91  90  90  86  84  82  85  87  73  56  52  41  39  51  38  36  
+
+> 326                                                                                                   350
+     D   V   K   E   K   M   A   A   K   A   K   Q   E   E   E   T   E   R   V   E   K   E   K   E   Q   
+H->  64  68  69  70  68  66  63  16  13  11  13  16  20  32  30  28  25  24  23  19  19  21  37  37  17  
+E->  3   3   2   2   3   4   4   7   6   5   5   6   6   5   5   5   7   8   8   8   6   6   6   7   8   
+C->  32  27  27  26  28  29  31  75  79  83  80  77  72  61  63  65  67  67  67  71  74  72  56  55  73  
+
+> 351                                                                                                   375
+     E   R   D   K   K   R   K   S   L   V   D   L   V   E   P   R   V   A   A   S   S   N   S   T   N   
+H->  16  17  21  31  27  24  23  8   7   10  14  15  14  15  17  17  16  14  6   9   7   7   6   5   5   
+E->  6   6   6   6   5   4   5   7   8   9   10  10  10  9   7   7   9   9   9   6   5   4   4   5   5   
+C->  76  76  71  62  66  70  71  84  84  79  74  73  75  74  75  75  74  75  83  83  86  87  88  89  89  
+
+> 376                                                                                                   400
+     P   R   K   I   C   K   Q   T   S   V   D   S   G   N   E   A   S   S   E   D   S   N   D   S   N   
+H->  9   11  10  9   9   9   8   5   4   6   7   8   9   11  10  9   6   7   8   12  10  8   8   8   9   
+E->  4   6   8   9   8   6   6   8   9   9   8   8   7   6   5   7   7   5   4   6   7   9   9   9   10  
+C->  85  82  81  80  81  84  85  86  85  84  84  83  83  81  83  83  85  87  87  80  82  82  82  82  80  
+
+> 401                                                                                                   425
+     K   D   C   D   N   G   D   P   V   S   T   T   T   S   F   S   L   L   G   L   M   G   A   N   D   
+H->  8   6   5   5   7   9   9   6   7   9   11  14  14  15  14  15  17  17  17  14  14  7   11  12  13  
+E->  12  13  11  7   4   4   7   9   11  8   6   5   6   8   8   9   10  10  10  10  12  6   7   6   5   
+C->  78  79  83  87  88  86  83  83  81  82  82  80  79  75  76  74  72  72  72  74  73  85  81  80  80  
+
+> 426                                                                                                   450
+     H   N   E   W   T   G   S   D   E   S   L   F   R   A   L   H   K   V   F   L   N   N   Y   C   A   
+H->  23  14  10  8   9   37  48  68  86  91  95  96  95  92  94  94  91  86  76  23  22  27  70  84  87  
+E->  4   11  16  15  7   1   0   0   1   1   1   0   0   0   0   0   0   1   1   2   1   2   2   4   5   
+C->  72  73  72  76  82  61  50  30  12  7   3   2   3   6   4   5   7   12  21  73  76  69  26  11  6   
+
+> 451                                                                                                   475
+     I   A   Q   I   I   L   T   K   T   C   Q   Q   V   Y   Q   F   A   K   K   E   A   A   D   I   P   
+H->  91  93  91  87  80  15  11  13  21  80  94  97  98  98  98  98  96  92  84  69  52  41  29  15  13  
+E->  3   1   1   1   1   1   1   2   3   1   0   0   0   0   0   0   0   0   0   0   1   1   3   5   5   
+C->  4   4   6   11  18  82  86  83  75  17  4   2   1   1   1   1   2   6   15  29  46  56  66  79  81  
+
+> 476                                                                                                   500
+     A   E   E   T   M   R   D   Y   T   P   P   R   K   K   K   K   K   H   R   L   W   S   M   H   C   
+H->  15  18  19  17  17  21  21  23  13  11  14  16  16  16  16  18  20  20  19  19  21  27  26  25  24  
+E->  7   7   8   9   7   5   4   6   6   6   5   5   6   6   7   7   9   12  19  20  15  9   7   6   4   
+C->  77  74  71  72  75  73  74  70  80  82  80  78  76  77  75  73  70  66  61  60  62  63  65  68  71  
+
+> 501                                                                                                   525
+     R   K   I   Q   L   K   K   D   S   S   S   N   H   V   Y   N   F   T   P   C   D   H   P   G   Q   
+H->  32  37  39  36  30  22  15  11  9   10  10  9   8   6   5   5   5   4   3   3   2   3   4   5   4   
+E->  7   11  13  13  9   7   6   6   7   8   14  33  53  55  44  32  26  22  18  16  13  8   5   6   9   
+C->  59  51  47  50  59  70  77  82  83  80  74  57  38  37  50  62  68  73  77  79  84  88  90  87  85  
+
+> 526                                                                                                   550
+     N   C   D   N   N   C   P   C   I   G   A   Q   N   F   C   E   K   F   C   Q   C   S   S   D   C   
+H->  4   6   11  9   6   4   3   3   3   4   5   14  15  19  27  37  37  28  11  3   2   4   8   10  11  
+E->  10  6   5   7   7   8   10  10  9   11  4   4   9   17  17  12  11  14  16  18  13  7   4   5   7   
+C->  85  87  83  82  85  86  85  85  86  84  89  81  74  62  55  49  50  57  72  78  83  88  86  84  81  
+
+> 551                                                                                                   575
+     Q   N   R   F   P   G   C   R   C   K   A   Q   C   N   T   K   Q   C   P   C   Y   L   A   V   R   
+H->  12  12  12  10  9   8   4   2   2   6   10  9   5   3   12  17  18  12  13  19  18  17  15  12  9   
+E->  11  12  11  8   7   9   14  17  13  11  7   9   8   5   2   2   6   14  25  34  43  51  57  61  66  
+C->  76  74  76  81  82  82  81  80  83  82  81  81  86  91  84  80  75  73  61  46  38  30  27  25  24  
+
+> 576                                                                                                   600
+     E   C   D   P   D   L   C   Q   T   C   G   A   D   Q   F   D   I   T   K   I   T   C   K   N   V   
+H->  5   3   3   18  26  25  23  23  18  10  6   13  17  23  22  19  18  17  19  19  16  19  19  27  33  
+E->  66  47  15  3   3   6   6   8   10  9   8   5   4   5   7   8   8   7   8   10  15  15  16  15  20  
+C->  27  48  81  77  70  68  69  68  71  80  84  81  77  71  70  72  72  74  71  69  68  65  64  56  46  
+
+> 601                                                                                                   625
+     S   V   Q   R   G   L   H   K   H   L   L   M   A   P   S   D   V   A   G   W   G   I   F   L   K   
+H->  35  39  39  27  13  7   6   4   3   2   1   1   1   1   2   3   4   4   7   11  10  8   5   9   21  
+E->  24  25  20  13  8   7   11  20  52  78  85  88  84  64  30  14  14  20  21  47  67  80  83  69  37  
+C->  39  35  40  59  78  85  82  75  44  19  12  9   14  34  67  81  80  75  71  40  21  11  10  20  40  
+
+> 626                                                                                                   650
+     D   S   A   Q   K   N   E   F   I   S   E   Y   C   G   E   I   I   S   Q   D   E   A   D   R   R   
+H->  31  28  18  11  10  5   2   1   1   2   5   3   9   13  14  10  5   3   85  91  92  95  95  95  94  
+E->  27  27  22  7   5   5   17  73  90  90  80  74  40  28  40  49  34  9   1   0   0   0   0   0   0   
+C->  40  43  59  80  84  89  79  24  8   7   13  21  49  57  44  39  59  87  13  8   6   4   4   4   4   
+
+> 651                                                                                                   675
+     G   K   V   Y   D   K   Y   M   C   S   F   L   F   N   L   N   N   D   F   V   V   D   A   T   R   
+H->  95  95  94  91  83  66  13  2   1   0   0   0   0   1   1   1   4   6   5   4   3   3   7   16  20  
+E->  0   0   0   0   1   1   4   2   13  58  91  95  93  85  54  12  4   13  53  80  82  70  45  24  16  
+C->  3   4   4   7   15  31  82  94  85  40  7   3   5   12  43  85  91  79  41  14  14  25  46  58  62  
+
+> 676                                                                                                   700
+     K   G   N   K   I   R   F   A   N   H   S   I   N   P   N   C   Y   A   K   V   M   M   V   N   G   
+H->  17  9   9   33  34  33  27  18  11  8   7   7   8   8   6   6   4   3   1   0   0   0   0   1   1   
+E->  11  7   7   18  33  39  41  37  26  14  9   7   6   7   15  40  74  87  91  94  95  93  79  24  7   
+C->  71  82  82  47  32  27  31  43  61  76  82  84  85  84  77  52  21  8   6   4   3   5   20  74  91  
+
+> 701                                                                                                   725
+     D   H   R   I   G   I   F   A   K   R   A   I   Q   P   G   E   E   L   F   F   D   Y   R   Y   G   
+H->  2   0   1   2   3   3   1   7   6   11  8   6   4   4   4   4   4   2   1   1   1   5   5   4   3   
+E->  17  55  88  93  94  93  91  74  37  24  21  15  8   5   7   19  57  85  91  88  78  30  21  13  5   
+C->  80  43  10  3   2   2   7   17  56  63  70  78  87  89  87  76  38  12  7   9   19  64  73  82  90  
+
+> 726                                                                                                   742
+     P   T   E   Q   L   K   F   V   G   I   E   R   E   M   E   F   L   
+H->  5   7   9   8   7   6   4   3   3   19  43  44  27  17  18  15  13  
+E->  5   3   3   7   19  37  46  41  23  9   4   5   6   10  20  24  14  
+C->  89  88  86  84  72  55  49  55  72  71  51  49  65  71  61  59  72  
+
+END_SECTION
+SECTION_SA
+
+Relative solvent accessibility prediction
+0 -> fully Buried
+9 -> fully Exposed
+3rd line -> confidence level (scale from 0 to 9, corresponding to p=0.0 or low confidence and p=0.9 or high confidence, respectively)
+
+>   1                                                              60
+     MSKVKNTFDWKKRVKQEYLRLRQQKRYKRADDVKVAWNRNKEQMTDILISEQKRWTDGKA
+     555453333024303410131234433542530121134115414522332354246342
+     444343324765663456645434344544559545645676786565644465454554
+>  61                                                             120
+     CWVQNPDLSAHATCMKKAEVIGNEGDIQVASIKIINAVTPIPTMYTWAPIQQNFMVEDET
+     331533534442423452423345442332315204423411401101102422314334
+     434333333333334343343343243444354483434375466688685445444455
+> 121                                                             180
+     VLHNIPYMGDEILDQDGTFIEELIKNYDGKVHGDQESGFIDDELFIELVHALMQFQEKPE
+     103201111452244444113200532654122444332141300120032024234545
+     464375773454433334465577545335543533225645577758956945333644
+> 181                                                             240
+     EKKVDKKKEEKDLERDDLPNDEDDKQKSDLEFPSIVIFQAISSQFPDKGGSEELRDKYIE
+     555355553444344442454455555453512332014001411355523541554145
+     454333343443444334434443333434453345575774467534344455545767
+> 241                                                             300
+     LTERTDPSSPPECTPNIDGACAASVPREQTMHSFHTLFCRRCFKYDCFLHRLQACHPGPN
+     124444454455345525443455243542143144241230142303114133433434
+     645443334443453344344333434453543433535447745573443644353453
+> 301                                                             360
+     LQKRRGPDLKPFCEPCGPDCYIHLEDVKEKMAAKAKQEEETERVEKEKEQERDKKRKSLV
+     344453453545434124411121531453344545544454424444444443445432
+     344334433533345535466547536563333434333343334433333333333334
+> 361                                                             420
+     DLVEPRVAASSNSTNPRKICKQTSVDSGNEASSEDSNDSNKDCDNGDPVSTTTSFSLLGL
+     432345344444544454345543444344334553444444344543244434332332
+     333433343333333334433343433354333434333343333354333333333335
+> 421                                                             480
+     MGANDHNEWTGSDESLFRALHKVFLNNYCAIAQIILTKTCQQVYQFAKKEAADIPAEETM
+     444444441453333004202412242001003213443033005103533452334432
+     434444467535445687665545334685894564555945987796743434334333
+> 481                                                             540
+     RDYTPPRKKKKKHRLWSMHCRKIQLKKDSSSNHVYNFTPCDHPGQNCDNNCPCIGAQNFC
+     443434544534421234334415455544342133132141434235431513445430
+     333454444443435444334575445434344543744744445543347466453369
+> 541                                                             600
+     EKFCQCSSDCQNRFPGCRCKAQCNTKQCPCYLAVRECDPDLCQTCGADQFDITKITCKNV
+     342040444143414303034515454000110112023521440334333234131312
+     544959535623573274864674232968678663864157446454343343456544
+> 601                                                             660
+     SVQRGLHKHLLMAPSDVAGWGIFLKDSAQKNEFISEYCGEIISQDEADRRGKVYDKYMCS
+     213444433031131522110010354155431001000100345204303421453300
+     474545445765657344378859455875357866766569544487675546645577
+> 661                                                             720
+     FLFNLNNDFVVDATRKGNKIRFANHSINPNCYAKVMMVNGDHRIGIFAKRAIQPGEELFF
+     000103441001001101101001100211020110104321000000123044211000
+     999776557996863436775895564554968976694266699898764944643676
+> 721                                                             742
+     DYRYGPTEQLKFVGIEREMEFL
+     1021245432120214503422
+     5847552555856277464444
+END_SECTION
+
+SECTION_SA_PERCENT
+Relative solvent accessibility prediction (real values)
+0 -> fully Buried
+100 -> fully Exposed
+
+>   1                                                                                                    25
+     M   S   K   V   K   N   T   F   D   W   K   K   R   V   K   Q   E   Y   L   R   L   R   Q   Q   K   
+     55  55  57  49  53  30  35  34  34  9   26  44  38  6   38  43  19  8   15  38  13  22  38  45  42  
+
+>  26                                                                                                    50
+     R   Y   K   R   A   D   D   V   K   V   A   W   N   R   N   K   E   Q   M   T   D   I   L   I   S   
+     33  34  51  45  26  51  34  4   17  28  11  11  36  49  16  17  53  41  10  47  58  26  21  37  37  
+
+>  51                                                                                                    75
+     E   Q   K   R   W   T   D   G   K   A   C   W   V   Q   N   P   D   L   S   A   H   A   T   C   M   
+     21  35  50  40  20  46  62  37  48  29  36  30  19  51  38  39  57  30  43  43  49  26  49  28  35  
+
+>  76                                                                                                   100
+     K   K   A   E   V   I   G   N   E   G   D   I   Q   V   A   S   I   K   I   I   N   A   V   T   P   
+     46  53  22  44  20  32  32  44  53  41  49  26  34  31  25  37  15  53  26  8   44  49  21  38  45  
+
+> 101                                                                                                   125
+     I   P   T   M   Y   T   W   A   P   I   Q   Q   N   F   M   V   E   D   E   T   V   L   H   N   I   
+     12  11  41  6   10  13  7   13  14  7   23  41  21  29  34  17  48  30  35  45  19  9   39  27  8   
+
+> 126                                                                                                   150
+     P   Y   M   G   D   E   I   L   D   Q   D   G   T   F   I   E   E   L   I   K   N   Y   D   G   K   
+     13  13  12  17  45  52  21  21  46  44  40  42  45  19  11  39  29  6   9   55  33  22  61  54  44  
+
+> 151                                                                                                   175
+     V   H   G   D   Q   E   S   G   F   I   D   D   E   L   F   I   E   L   V   H   A   L   M   Q   F   
+     14  26  26  40  48  40  31  35  20  12  41  19  38  7   8   15  29  4   4   39  20  4   20  49  22  
+
+> 176                                                                                                   200
+     Q   E   K   P   E   E   K   K   V   D   K   K   K   E   E   K   D   L   E   R   D   D   L   P   N   
+     31  45  50  43  53  52  58  53  39  54  54  57  54  38  47  49  44  34  42  45  42  44  28  48  52  
+
+> 201                                                                                                   225
+     D   E   D   D   K   Q   K   S   D   L   E   F   P   S   I   V   I   F   Q   A   I   S   S   Q   F   
+     47  47  55  54  54  51  52  45  55  35  52  18  27  38  34  25  9   10  40  7   6   18  49  16  12  
+
+> 226                                                                                                   250
+     P   D   K   G   G   S   E   E   L   R   D   K   Y   I   E   L   T   E   R   T   D   P   S   S   P   
+     34  59  53  55  29  39  53  44  14  50  55  40  10  47  52  11  27  49  48  44  48  46  59  46  41  
+
+> 251                                                                                                   275
+     P   E   C   T   P   N   I   D   G   A   C   A   A   S   V   P   R   E   Q   T   M   H   S   F   H   
+     52  58  31  43  51  52  29  54  47  45  39  42  52  50  22  40  38  57  46  23  15  48  39  17  43  
+
+> 276                                                                                                   300
+     T   L   F   C   R   R   C   F   K   Y   D   C   F   L   H   R   L   Q   A   C   H   P   G   P   N   
+     43  29  43  16  28  31  8   11  42  22  31  8   37  15  19  42  14  37  31  40  37  32  41  35  47  
+
+> 301                                                                                                   325
+     L   Q   K   R   R   G   P   D   L   K   P   F   C   E   P   C   G   P   D   C   Y   I   H   L   E   
+     38  45  43  42  50  34  41  57  35  50  46  53  46  39  45  13  27  43  41  10  13  17  23  14  51  
+
+> 326                                                                                                   350
+     D   V   K   E   K   M   A   A   K   A   K   Q   E   E   E   T   E   R   V   E   K   E   K   E   Q   
+     37  12  47  50  38  33  41  41  52  40  52  53  47  49  44  51  41  47  29  48  49  45  48  41  45  
+
+> 351                                                                                                   375
+     E   R   D   K   K   R   K   S   L   V   D   L   V   E   P   R   V   A   A   S   S   N   S   T   N   
+     41  48  43  38  46  47  52  41  31  26  45  32  25  30  47  50  31  44  47  44  48  48  51  43  44  
+
+> 376                                                                                                   400
+     P   R   K   I   C   K   Q   T   S   V   D   S   G   N   E   A   S   S   E   D   S   N   D   S   N   
+     43  54  47  31  48  57  56  46  34  40  46  43  37  42  48  39  33  42  51  51  39  47  43  47  43  
+
+> 401                                                                                                   425
+     K   D   C   D   N   G   D   P   V   S   T   T   T   S   F   S   L   L   G   L   M   G   A   N   D   
+     44  46  33  49  47  53  42  36  22  47  48  48  35  45  30  38  29  38  34  28  41  44  45  45  45  
+
+> 426                                                                                                   450
+     H   N   E   W   T   G   S   D   E   S   L   F   R   A   L   H   K   V   F   L   N   N   Y   C   A   
+     47  45  47  14  41  53  38  35  31  39  8   7   46  25  9   24  49  19  21  29  49  25  9   5   13  
+
+> 451                                                                                                   475
+     I   A   Q   I   I   L   T   K   T   C   Q   Q   V   Y   Q   F   A   K   K   E   A   A   D   I   P   
+     3   4   38  22  19  30  48  45  33  6   38  33  5   8   54  17  5   30  51  35  36  41  54  20  38  
+
+> 476                                                                                                   500
+     A   E   E   T   M   R   D   Y   T   P   P   R   K   K   K   K   K   H   R   L   W   S   M   H   C   
+     36  47  40  37  26  46  49  37  41  36  44  50  44  42  52  39  42  41  27  19  22  37  47  35  32  
+
+> 501                                                                                                   525
+     R   K   I   Q   L   K   K   D   S   S   S   N   H   V   Y   N   F   T   P   C   D   H   P   G   Q   
+     49  41  15  53  43  51  51  56  44  48  35  48  21  16  34  38  15  37  25  10  45  17  48  36  40  
+
+> 526                                                                                                   550
+     N   C   D   N   N   C   P   C   I   G   A   Q   N   F   C   E   K   F   C   Q   C   S   S   D   C   
+     23  34  55  43  34  12  50  12  30  41  48  51  45  33  6   36  49  28  8   47  6   41  45  48  14  
+
+> 551                                                                                                   575
+     Q   N   R   F   P   G   C   R   C   K   A   Q   C   N   T   K   Q   C   P   C   Y   L   A   V   R   
+     40  32  42  18  49  33  6   39  5   36  47  50  15  50  40  56  44  5   9   5   13  15  6   13  17  
+
+> 576                                                                                                   600
+     E   C   D   P   D   L   C   Q   T   C   G   A   D   Q   F   D   I   T   K   I   T   C   K   N   V   
+     21  6   25  38  57  28  10  48  44  9   33  31  41  37  31  35  27  32  44  19  39  13  38  15  21  
+
+> 601                                                                                                   625
+     S   V   Q   R   G   L   H   K   H   L   L   M   A   P   S   D   V   A   G   W   G   I   F   L   K   
+     25  10  31  45  42  43  40  34  37  8   33  16  10  31  12  51  27  20  15  11  6   6   19  4   32  
+
+> 626                                                                                                   650
+     D   S   A   Q   K   N   E   F   I   S   E   Y   C   G   E   I   I   S   Q   D   E   A   D   R   R   
+     50  48  10  55  54  40  33  11  5   9   12  8   9   8   15  9   5   37  45  55  24  7   46  39  9   
+
+> 651                                                                                                   675
+     G   K   V   Y   D   K   Y   M   C   S   F   L   F   N   L   N   N   D   F   V   V   D   A   T   R   
+     32  44  27  10  47  54  35  39  8   8   5   3   3   19  6   30  43  42  17  5   4   11  3   9   18  
+
+> 676                                                                                                   700
+     K   G   N   K   I   R   F   A   N   H   S   I   N   P   N   C   Y   A   K   V   M   M   V   N   G   
+     15  9   10  14  5   10  5   4   10  10  7   7   20  11  15  5   24  5   18  15  5   17  5   49  33  
+
+> 701                                                                                                   725
+     D   H   R   I   G   I   F   A   K   R   A   I   Q   P   G   E   E   L   F   F   D   Y   R   Y   G   
+     28  18  8   3   3   4   5   3   16  20  31  7   46  40  28  18  16  6   6   7   14  7   24  11  29  
+
+> 726                                                                                                   742
+     P   T   E   Q   L   K   F   V   G   I   E   R   E   M   E   F   L   
+     44  52  48  37  28  11  21  6   28  14  44  50  8   30  42  28  28  
+
+END_SECTION
+

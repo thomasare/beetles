@@ -1,0 +1,11 @@
+Turns 1    T     T   T   T      T T   T         TT     T     TT   TTT          T 70 
+Turns 71              T T                          T     T           T    TTT    140 
+Turns 141         T    T  T    T              T           T   T    T             210 
+Turns 211   T   T    T   T      T   T   T   T   TT      TT                       280 
+Turns 281        TT   T   T      T              T       T T   TT      T       T  350 
+Turns 351    T    TT   T T   T      T   T   TT                   T   TT T        420 
+Turns 421                           TTT     TT       TT    T               T   T 490 
+Turns 491             TT           T   T      T   T                          T   560 
+Turns 561       T               T          T          T   TT       T    TT   T T 630 
+Turns 631                T        T T          T          T        TT   T T      700 
+Turns 701     T T        T      721 

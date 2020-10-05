@@ -1,0 +1,79 @@
+#   FFPred version 4
+#   Results for "aad568fa-05e8-11eb-9e23-00163e100d53" - full criteria
+#Score	GO term		RL	Domain	Description
+0.964	GO:0008380	H	BP	RNA splicing
+0.944	GO:0003676	H	MF	nucleic acid binding
+0.911	GO:0000398	H	BP	mRNA splicing, via spliceosome
+0.884	GO:0003824	H	MF	catalytic activity
+0.870	GO:0019222	H	BP	regulation of metabolic process
+0.851	GO:0006396	H	BP	RNA processing
+0.850	GO:0006397	H	BP	mRNA processing
+0.840	GO:0008092	H	MF	cytoskeletal protein binding
+0.832	GO:0000375	H	BP	RNA splicing, via transesterification reactions
+0.831	GO:2001141	H	BP	regulation of RNA biosynthetic process
+0.822	GO:1903506	H	BP	regulation of nucleic acid-templated transcription
+0.814	GO:0044822	H	MF	poly(A) RNA binding
+0.807	GO:0034645	H	BP	cellular macromolecule biosynthetic process
+0.785	GO:0003723	H	MF	RNA binding
+0.779	GO:0006351	H	BP	transcription, DNA-templated
+0.739	GO:0051171	H	BP	regulation of nitrogen compound metabolic process
+0.730	GO:0010468	H	BP	regulation of gene expression
+0.710	GO:0003779	H	MF	actin binding
+0.704	GO:0000166	H	MF	nucleotide binding
+0.704	GO:0009059	H	BP	macromolecule biosynthetic process
+0.700	GO:0051252	H	BP	regulation of RNA metabolic process
+0.700	GO:0005730	H	CC	nucleolus
+0.696	GO:0006810	H	BP	transport
+0.661	GO:0006355	H	BP	regulation of transcription, DNA-templated
+0.590	GO:0030529	H	CC	ribonucleoprotein complex
+0.577	GO:0005739	H	CC	mitochondrion
+0.565	GO:0016740	H	MF	transferase activity
+0.559	GO:0003677	H	MF	DNA binding
+0.531	GO:0008270	H	MF	zinc ion binding
+0.524	GO:0019900	H	MF	kinase binding
+0.508	GO:0016071	H	BP	mRNA metabolic process
+0.945	GO:0043229	L	CC	intracellular organelle
+0.937	GO:0097159	L	MF	organic cyclic compound binding
+0.935	GO:0008152	L	BP	metabolic process
+0.914	GO:0046872	L	MF	metal ion binding
+0.904	GO:0006139	L	BP	nucleobase-containing compound metabolic process
+0.894	GO:0006807	L	BP	nitrogen compound metabolic process
+0.894	GO:0043231	L	CC	intracellular membrane-bounded organelle
+0.889	GO:0009058	L	BP	biosynthetic process
+0.878	GO:0044237	L	BP	cellular metabolic process
+0.860	GO:0034641	L	BP	cellular nitrogen compound metabolic process
+0.854	GO:0005737	L	CC	cytoplasm
+0.844	GO:0005634	L	CC	nucleus
+0.828	GO:0046483	L	BP	heterocycle metabolic process
+0.825	GO:0006725	L	BP	cellular aromatic compound metabolic process
+0.823	GO:0007154	L	BP	cell communication
+0.818	GO:0032502	L	BP	developmental process
+0.815	GO:0031981	L	CC	nuclear lumen
+0.814	GO:0050896	L	BP	response to stimulus
+0.802	GO:0051716	L	BP	cellular response to stimulus
+0.790	GO:0010467	L	BP	gene expression
+0.785	GO:0007165	L	BP	signal transduction
+0.745	GO:0005654	L	CC	nucleoplasm
+0.743	GO:0036094	L	MF	small molecule binding
+0.739	GO:0006996	L	BP	organelle organization
+0.730	GO:0005829	L	CC	cytosol
+0.728	GO:0048856	L	BP	anatomical structure development
+0.724	GO:0009893	L	BP	positive regulation of metabolic process
+0.722	GO:0016070	L	BP	RNA metabolic process
+0.713	GO:0023052	L	BP	signaling
+0.712	GO:0043169	L	MF	cation binding
+0.694	GO:0044267	L	BP	cellular protein metabolic process
+0.681	GO:0005102	L	MF	receptor binding
+0.676	GO:0019538	L	BP	protein metabolic process
+0.673	GO:0007275	L	BP	multicellular organismal development
+0.645	GO:0043234	L	CC	protein complex
+0.628	GO:0019904	L	MF	protein domain specific binding
+0.613	GO:0009966	L	BP	regulation of signal transduction
+0.596	GO:0030154	L	BP	cell differentiation
+0.589	GO:0031325	L	BP	positive regulation of cellular metabolic process
+0.579	GO:0032991	L	CC	macromolecular complex
+0.578	GO:0032403	L	MF	protein complex binding
+0.540	GO:0050790	L	BP	regulation of catalytic activity
+0.515	GO:0031324	L	BP	negative regulation of cellular metabolic process
+0.502	GO:0006464	L	BP	cellular protein modification process
+0.500	GO:0010033	L	BP	response to organic substance
