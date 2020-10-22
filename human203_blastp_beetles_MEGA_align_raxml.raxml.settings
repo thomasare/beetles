@@ -1,0 +1,6 @@
+Your analaysis was run as follows:
+Analysis: ML + transfer bootstrap expectation + consensus
+Binary: raxml-ng version 1.0.0
+Results saved to: /home/ariane/Desktop/Bioinformatics/beetles/beetles
+RAxML was called with these arguments:
+1.) --all --msa /home/ariane/Desktop/Bioinformatics/beetles/beetles/human203_blastp_beetles_MEGA_align.fas --model Blosum62+I+G --prefix /home/ariane/Desktop/Bioinformatics/beetles/beetles/human203_blastp_beetles_MEGA_align_raxml --seed 123 --bs-metric tbe --tree rand{1} --bs-trees 1000
