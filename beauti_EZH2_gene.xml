@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="BEAST v2.5.0" version="2.5">
+
+
+    <data id="bird_reptile_fly_mega_aligntrim" dataType="aminoacid" name="alignment">
+                    <sequence id="seq_Agla_EZH2orth_protein" taxon="Agla_EZH2orth_protein" totalcount="20" value="--------MAKAKVSADWKKRVKQEYMRLRQQKRYKRADDVKLAWNQNRNKMTETLIAEQKRWTESKAFWVPTPELPAHVTCMKKAEVIGNEGD---IQVAAIKIINAVTPIPTMYTWAPIQQNFMVEDETVLHNIPYMGDEILDQDGT-FIEELIKNYDGKVHGDRE-SGFIDDELFVELVHALMQ--------YQEKDKPEKRKD----DKDKKDDKEKKEKEVEEDDKEKKKEELEFPAFVIFQAISLQFPDKGGPEELRDKYVELTERTDPN-APPECTPNIDGPNAASVPREQTMHSFHTLFCRRCFKYDCFLHRLQACHPGPNLQKRRGPDLKPFTEPCGSDCYMLLDV---VKEKMAAKAKQEEEKEIKVKSTRSIGESSDPKVNGVSSLRKICKQQSVDSGNEASSEDSNDSNKYKDTDGSDPVSTTTSFS--------LLGLMGANDHNEWTGSDESLFRALHKVFLNNYCAIAQIML-TKTCQQIYYFAQKEA---ADIPAEEAVRDYTPPRKKKKKHRLWSMHCRKIQLKKESNSNHVYNFTPCDHPGQNCDHNCPCIGAQNFCEKFCQCSSDCQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCQTCGAD-QFDITKITCKNVSVQRGLHKHLLMAPSDVAGWGIFLKDSAQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-INPNCYAKVMMVNGDHRIGIFAKRPIQPDMDLQNN---------------------"/>
+                    <sequence id="seq_Anolis_carolinensis_XP_016849929" taxon="Anolis_carolinensis_XP_016849929" totalcount="20" value="RIIMGQTGKKSEKGPICWRKRVKSEYMRLRQLKRFRRADEVKSMFNSNRQKIQERTEILNQEWKQRRIQPVHIMTSVSSLRGTRECSVTSDL-DFP-KQVIPLKTLNAVASVPIMYSWSPLQQNFMVEDETVLHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALGQYSDDDDDDDDDDH-LDRRD-----EKQKNQESNQIDKESHPP--------RKFPSDKIFEAISSMFPDKGTAEELKEKYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNTYKRKNTEMAIDNKPCGPHCYQHLEG---AKEFAAALTAERIKTPPKRPGGRRRGRLPNNTSRPSTPTINVLESKDTDSDREAGTETGGENNDKEEEEKKDETSSSSEANSRCQTPIKMKPNTEPPENVEWSGAEASMFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPAPAEDVDTPPRKKKRKHRLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDNSCPCVIAQNFCEKFCQCSSECQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIFIKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VNPNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP"/>
+                    <sequence id="seq_Asterias_rubens_XP_033629619" taxon="Asterias_rubens_XP_033629619" totalcount="20" value="RSSTSTPDKTTGKMPFDLKRKVKSEYMRLRQLKRFRRADTVRTIWAKNRVLIAESTQRNNSSWCEGPFQSIHTVASFDQLPVIRKCSIEVGN-GGP-PQSGPLYTLNSITSVPWVYTWEPLQQNFMVDDETVLHNIPYMGDEVLEQDGS-FIEELIKNYDGKVHGEKE-CGFIDDDAFISLVKSVAVAE--------------------------QVELGVLEKVDDQLEG--------FPSDSVFAAIASQFPDKGKTEDLRKRYRNLQMKDIPSTVVLECTPNIDGPAAKSVPREQTMHSFHTLFCRRCYKYDCFLH---PYHPTPSQTKPKSTEMRQETEPCGPDCFMIQPKE--SALNSPGSAEKNRSGT-------KRHLTRSEEGVP-IKIN----PSEMTPEK-------------IHP-GSKDASPESEVN-----------VIVTRPGVDWSGSDASLFRVLRGVFFNNYCTIASLLK-TKTCRQIFEFAVKEG---ELAELPPERNP-TPPRKKKRKQRMWSMHCRKIQLKKDSTASHVYNYQPCDHPGKPCDAECSCIMLQNFCEKYCQCTSDCQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCGTCGASEHADSDNISCKNVSLQRGWKKHLLLAPSDVAGWGIFIKQSAQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-NSPNCYAKVMMVNGDHRIGIFAKRPIQTGEELFFDYRYSATDALKYVGIEREMDVP"/>
+                    <sequence id="seq_Caenorhabditis_elegans_NP_496992" taxon="Caenorhabditis_elegans_NP_496992" totalcount="20" value="FSSEKIKETVCEQGIEECKRMLKGHFNAIKDDYDIRVKDELKDWLKDASSSVNEYRRRLQENLGEGRTIAKFSFKKVSDSTVTWIKPDRTEEGDLMKKFRAPCSRIEVGDISPPMIYWVPIEQSVATPDQLRLTHMPYFGDGIDDGNIY---EHLIDMFPDGIHGFSDNWSYVNDWILYKLCRAALKDYQG-------------------------------------------------SPDVFYYTLYRLWPNKSSQREFSSAFPVLCENFAEKGFDPSSLEP-----WKKTKIAEGAQNLRNPTCYACLAYTCAIHGFKAEIPIEFPFYNAMLPLPNNPENDGKMCSGNCWKSVTMKEVSEVLVPDSE-------------EILQKEVKIYFMKSRIAKMPIEDGALIVNIYVFNTYIPFCEFVKKYVDEDDEESK---------IRSCRDAYHLMMSMAENVSARRLKMGQPSNRLSIKDRVN-NFRRNQLSQEKAKRKLRHDSLRIQALRDGLDAEKLIREDMRDSQRNSEKVRMTAVTPITACRHAGPCNATAENCACR-----ENGVCSYMCKCDINCSQRFPGCNCAAGQCYTKACQCYRANWECNPMTCNMCKCD-AIDSNIIKCRNFGMTRMIQKRTYCGPSKIAGNGLFLLEPAEKDEFITEYTGERISDDEAERRGAIYDRYQCSYIFNIETGGAIDSYKIGNLARFANHDSKNPTCYARTMVVAGEHRIGFYAKRRLEISEELTFDYSYSGEHQIAFRMVQTKERSE"/>
+                    <sequence id="seq_Callorhinchus_milii_XP_007904509" taxon="Callorhinchus_milii_XP_007904509" totalcount="20" value="---MGFTGRKSTKGPVCWRKRVKSEYMRLRQLKRFRRADEVKSRFSANRQKIKEKTEILNQDWKQHRIQPVHIMTSVSTMRGTRECTVESGFPEFS-KQIIPLKTLNAVASIPVMYSWSPLQQNFMVEDETVLHNIPYMGDEILDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALTQYSDNDEEDDDDEDQENKSEKTDGSDIKEESNEARKDYQDISMDGKESEEGKKMPCDKIFEAISSMFPDKGTPEELKEKYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNTYKRKNPETRAETEHCGSDCCLYLDG---AKDFAVALTAERIKTPPKRPGGRRRGRHPNSTSRPSTPTINLSEAKDTDSDREAGTDTGGEINDKDEEDKKDDTTSSSEANSRCQTPVKMKLTADLS-DVEWSGAEASLFRVLHGTYYNNFCAIAKLLG-TKTCRQVYEFAVKES---NIIARVPAEDADTPPRKKKRKHRLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVMAQNFCEKFCQCSSECQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCQTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIFIKEPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VNPNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP"/>
+                    <sequence id="seq_Danio_rerio_NP_001070747" taxon="Danio_rerio_NP_001070747" totalcount="20" value="---MGLTGRKSEKGPVCWRRRVKSEYMRLRQLKRFRRADEVKSMFSSNRQKILERTDILNQEWKLRRIQPVHIMTPVSSLRGTRECTVDSGFSEFS-RQVIPLKTLNAVASVPVMYSWSPLQQNFMVEDETVLHNIPYMGDEILDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALNQYSDNEEDDEEDDHHDYKFEKMDLCDGKDDAEDHKEQLSSESHNNDGS---KKFPSDKIFEAISSMFPDKGSTEELKEKYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFQATPNTYKRKNMENLVDSKPCGIYCYMYMVQDGMVREYPAGVVPERAKTPSKRSTGRRRGRLPNSNSRPSTPTVNS-ETKDTDSDREGGAD-GNDSNDKDDDDKKDETTSSSEANSRCQTPVKLKLSSEPPENVDWSGAEASLFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIARAPAVDENTPQRKKKRKHRLWATHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVTAQNFCEKFCQCSSECQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCLTCGAAEHWDSKNVSCKNCSIQRGAKKHLLLAPSDVAGWGIFIKEPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VNPNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP"/>
+                    <sequence id="seq_Dpon_EZH2ortho_protein" taxon="Dpon_EZH2ortho_protein" totalcount="20" value="--------MSKVKNTFDWKKRVKQEYLRLRQQKRYKRADDVKVAWNRNKEQMTDILISEQKRWTDGKACWVQNPDLSAHATCMKKAEVIGNEGD---IQVASIKIINAVTPIPTMYTWAPIQQNFMVEDETVLHNIPYMGDEILDQDGT-FIEELIKNYDGKVHGDQE-SGFIDDELFIELVHALMQ--------FQE--KPEEKKV----DKKKE-EKDLERDDLPNDEDDKQKSDLEFPSIVIFQAISSQFPDKGGSEELRDKYIELTERTDPS-SPPECTPNIDGACAASVPREQTMHSFHTLFCRRCFKYDCFLHRLQACHPGPNLQKRRGPDLKPFCEPCGPDCYIHLED---VKEKMAAKAKQEEERDKKRKSLVDLVEPRVAASSNSTNPRKICKQTSVDSGNEASSEDSNDSN--KDCDNGDPVSTTTSFS--------LLGLMGANDHNEWTGSDESLFRALHKVFLNNYCAIAQIIL-TKTCQQVYQFAKKEA---ADIPAEETMRDYTPPRKKKKKHRLWSMHCRKIQLKKDSSSNHVYNFTPCDHPGQNCDNNCPCIGAQNFCEKFCQCSSDCQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCQTCGAD-QFDITKITCKNVSVQRGLHKHLLMAPSDVAGWGIFLKDSAQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-INPNCYAKVMMVNGDHRIGIFAKRAIQPGEELFFDYRYGPTEQLKFVGIEREMEFL"/>
+                    <sequence id="seq_Drosophilia_melanogaster_FBtr0076279" taxon="Drosophilia_melanogaster_FBtr0076279" totalcount="20" value="--------MNSTKVPPEWKRRVKSEYIKIRQQKRYKRADEIKEAWIRN---WDEHNHNVQDLYCESK-VWQAKPYDPPHVDCVKRAEVTSYNGIPSGPQKVPICVINAVTPIPTMYTWAPTQQNFMVEDETVLHNIPYMGDEVLDKDGK-FIEELIKNYDGKVHGDKD-PSFMDDAIFVELVHALMRSYSKGVVDEKTDSKGDLTEV----EKKETEEPLETEDADVKPDVEEVKDKLPFPAPIIFQAISANFPDKGTAQELKEKYIELTEHQDPE-RPQECTPNIDGIKAESVSRERTMHSFHTLFCRRCFKYDCFLHRLQG-HAGPNLQKRRYPELKPFAEPCSNSCYMLIDG---MKEKLAADSKTPP-----IDSCNEASSEDSNDSNSQFSNKDFNHENSKDNGLTVNSAAVAEIN-------------SIMAG--------MMNIT--STQCVWTGADQALYRVLHKVYLKNYCAIAHNML-TKTCRQVYEFAQKED---AEFSFEDLRQDFTPPRKKKKKQRLWSLHCRKIQLKKDSSSNHVYNYTPCDHPGHPCDMNCSCIQTQNFCEKFCNCSSDCQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCQACGAD-QFKLTKITCKNVCVQRGLHKHLLMAPSDIAGWGIFLKEGAQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-INPNCYAKVMMVTGDHRIGIFAKRAIQPGEELFFDYRYGPTEQLKFVGIEREMEIV"/>
+                    <sequence id="seq_Eudyptes_sclateri_KAF1525276" taxon="Eudyptes_sclateri_KAF1525276" totalcount="20" value="RIIMGQTGKKSEKGPICWRKRVKSEYMRLRQLKRFRRADEVKSMFNSNRQKILERTEILNQEWKQRRIQPVHIMTSVSSLRGTRECSVTSDI-DFP-KQVIPLKTLNAVASVPIMYSWSPLQQNFMVEDETVLHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALGQYSDDEDDDDGDDN-PDERD-----DKQKDREGNRMEKESHPP--------RRFPSDKIFEAISSMFPDKGTAEELKEKYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNTYKRKNTETALDNKPCGPHCYQHLEG---AKEFAAALTAERIKTPPKRPGGRRRGRLPNNTSRPSTPTINVLESKDTDSDREAGTETGGENNDKEEEEKKDETSSSSEANSRCQTPIKMKPNIEPPENVEWSGAEASMFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPVPAEDVDTPPRKKKRKHRLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVIAQNFCEKFCQCSSECQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIFIKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VNPNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP"/>
+                    <sequence id="seq_Hydra_vulgaris_XP_012555810" taxon="Hydra_vulgaris_XP_012555810" totalcount="20" value="-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------MAVR----------------PGPVKVQRKQLMDIQNIEPCGENCYMHLER-----SLTIQDTKDLP------------KSLPETDRNEDSKMKKFKRKKSFN-----------------KAETSVEVLAPVKST----------YLIEDTNDEPWTSSDLSMFRVLIKNFPNNYCTIAQLLNYSHTCKQIYRHAMLEP---RDEN--PSNDVMTPPTKKKKQVRSWANHCKKVQMKKENSASMLIGYYPCEHPGQPCNASCPCIFNHNFCEKFCQCSLDCQNRFPGCRCKA-QCCTKACPCYLAVRECDPDICKTCGADFEVESHESSCKNVGLQRSWR---------------------------------------------------------MNNEKKLSLSQPS---PLVNVA-TAP---LHVLPISVD-----------------------------------------"/>
+                    <sequence id="seq_Macaca_mulatta_NP_001253432" taxon="Macaca_mulatta_NP_001253432" totalcount="20" value="---MGQTGKKSEKGPVCWRKRVKSEYMRLRQLKRFRRADEVKSMFSSNRQKILERTEILNQEWKQRRIQPVHILTSVSSLRGTRECSVTSDL-DFP-TQVIPLKTLNAVASVPIMYSWSPLQQNFMVEDETVLHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALGQYNDDDDDDDGDD--PEERE-----EKQKDLEDHRDDKESRPP--------RKFPSDKIFEAISSMFPDKGTAEELKEKYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNTYKRKNTETALDNKPCGPQCYQHLEG---AKEFAAALTAERIKTPPKRPGGRRRGRLPNNSSRPSTPTINVLESKDTDSDREAGTETGGENNDKEEEEKKDETSSSSEANSRCQTPIKMKPNIEPPENVEWSGAEASMFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPAPAEDVDTPPRKKKRKHRLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVIAQNFCEKFCQCSSECQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIFIKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VNPNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP"/>
+                    <sequence id="seq_Mus_musculus_NP_031997" taxon="Mus_musculus_NP_031997" totalcount="20" value="---MGQTGKKSEKGPVCWRKRVKSEYMRLRQLKRFRRADEVKTMFSSNRQKILERTETLNQEWKQRRIQPVHIMTSVSSLRGTRECSVTSDL-DFP-AQVIPLKTLNAVASVPIMYSWSPLQQNFMVEDETVLHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALGQYNDDDDDDDGDD--PDERE-----EKQKDLEDNRDDKETCPP--------RKFPADKIFEAISSMFPDKGTAEELKEKYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNTYKRKNTETALDNKPCGPQCYQHLEG---AKEFAAALTAERIKTPPKRPGGRRRGRLPNNSSRPSTPTISVLESKDTDSDREAGTETGGENNDKEEEEKKDETSSSSEANSRCQTPIKMKPNIEPPENVEWSGAEASMFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPVPTEDVDTPPRKKKRKHRLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVIAQNFCEKFCQCSSECQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIFIKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VNPNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP"/>
+                    <sequence id="seq_Octopus_sinensis_XP_029645707" taxon="Octopus_sinensis_XP_029645707" totalcount="20" value="GADSKQDGPASKPASTDWRKRVRGEYMRLCQVKRFKRNDEVRCAFSSNRKLINDELEKHNCWWKEQPSQPLHAPETFSQIPVTRKCEVESGM-SFP-HQMAPLRVMNALKPIPTMYSWAPLQQNFMVEDETILHNIPYMGDDILDQDCA-FIEELLKNYDGKVHGDRD-TKFINDDLFMELVDALWANYNDTDPEQRELSSPSSQNTN---GIKTELKEDEVDKSRKTP-----------PADIIFQSISAMFPDKGTQEELKEKYIDLMETQDPNNIPPECTPNIDGPNARSVPREQTMHSFHTLFCRRCFKYDCFLH---PYHPTPSMLTRKMPEKKQEAEPCGETCFMHLTG---YKEQTNGEQHDGNKCDGKAGLERSERAKTSPTRTVGRKRKNGLPASTN----------------GEDSEKSNDADSEIMFP-----------VRKKPTSDEWSGAEESLFRVLHDVYRNNYCVVAKLIS-SKNCMQVYQFAIKET---AHIPDLKEDRTQTPPRKKKKKNRLWSMHCRKIQLKKDSVSNPVYNYQPCDHPGQRCDDTCPCIVAQNFCEKFCQCSSDCQNRFPGCRCKA-QCNTKQCPCFLAVRECDPDLCQTCGAD-QFDTQKISCKNVSVQRGLRKHLLLAPSEVAGWGIFLKVSAEKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-INPNCYAKVMMVNGDHRIGIFAKRPIQAGEELFFDYRYGPTEQLKFVGIERDNEVS"/>
+                    <sequence id="seq_Pan_troglodytes_XP_009452721" taxon="Pan_troglodytes_XP_009452721" totalcount="20" value="RIIMGQTGKKSEKGPVCWRKRVKSEYMRLRQLKRFRRADEVKSMFSSNRQKILERTEILNQEWKQRRIQPVHILTSVSSLRGTRECSVTSDL-DFP-TQVIPLKTLNAVASVPIMYSWSPLQQNFMVEDETVLHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALGQYNDDDDDDDGDD--PEERE-----EKQKDLEDHRDDKESRPP--------RKFPSDKIFEAISSMFPDKGTAEELKEKYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNTYKRKNTETALDNKPCGPQCYQHLEG---AKEFAAALTAERIKTPPKRPGGRRRGRLPNNSSRPSTPTINVLESKDTDSDREAGTETGGENNDKEEEEKKDETSSSSEANSRCQTPIKMKPNIEPPENVEWSGAEASMFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPAPAEDVDTPPRKKKRKHRLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVIAQNFCEKFCQCSSECQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIFIKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VNPNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP"/>
+                    <sequence id="seq_Strongylocentrotus_purpuratus_XP_030830157" taxon="Strongylocentrotus_purpuratus_XP_030830157" totalcount="20" value="KSERSVSEKSEKNTFTDLKSIVKSEYMSLVANRRFKRAGEIRMIWSANRKSIEERTEENERKNLERPFQSIHTAASFDQLPITRKCSIEVGS-NKH-KQTASLHTLNGVSSVPCVYTWAPLQQNFMVEDETVLHNIPYMGDEVLEQEQT-FIEELIKNYDGKVHGDRE-GGFIDDEVFVELVRSVAATESQKEEEEEEVKEPEVKEPELKTPELKELELATQELKEPELEMEEDSVPSDFPKDIIFKAIVSFFPERGSIEELKERYRELTEKQDPNILPPECTPNIDGPNAKSVPRDETMHSFHTLFCRRCYKYDCFLH---PYHPTPSQTKPKNKEFRTGTEPCGPSCFMHKQEY--SIPELPPPAADKSKGSPFRPGYKKLGGGRSNTSTP-TKFLGELDPDFQPFDKP-----------FIEPESSSNDSLPAETN-----------LVTSD---EWNGRESSLFRVLRNVYYNNYCAMARLLR-TKTCIQVAEFSAKEG---EAMELSPEHN--TPPRKKKRKQKLWSMHCRKIQLKKDNSSTHVYNYQPCDHPGKPCDADCTCIMLQNFCEKFCQCSPECQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCQTCGATDKSTSESISCKNVSLQRGWKRHLLLAPSDVAGWGIYITVPVMKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-NMPNCYAKVMMVNGDHRIGIFAKRNIQTGEELFFDYRYGPTDALKYVGIEREMDIL"/>
+                    <sequence id="seq_Tcas_EZH2_protein" taxon="Tcas_EZH2_protein" totalcount="20" value="--------MSKVKVSNEWKRHVKQEYIRLRQQKRFKRADDVKLAWNQNRIKMTENLIAEQKRWTESKAFWVPLPEIPSHVTCMKKAEVIGNEGD---IQVTPIRIINAVTPIPTMYTWAPIQQNFMVEDETVLHNIPYMGDDLLDQDGT-FIEELIKNYDGKVHGDRE-SGFIDDELFVELVHALMQ--------YQDSDKGEKK------DKDKEKTKE-----------EEKKKGLDFPAFIIFQAISSQFPDKGDPEELREKYIELTERTDPN-APPECTPNIDGPKAASVPREQTMHSFHTLFCRRCFKYDCFLHRLQACHPGPNLQKRRGPDLKPFTEPCSADCYMLLES---VKERMAAKAKQEE--EAKGKSVTEAGSSTEAKTNGNSNPRKVCKQQSVDSGNEASSEDSNDSNKYKDSTDQDQVSTTTSFS--------LLGLMGANDHKEWTGSDESLFRGLHKIFLNNYCAIAQIML-TKTCQQVYEFAQKED---ADIPDEEAMRDYTPPRKKKKKHRLWSVHCRKIQLKKESNSNHVYNFTPCDHPGQSCDTQCPCIGAQNFCEKFCQCSSDCQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCQTCGAD-QFDISKITCKNVSVQRGLHKHLLMAPSDVAGWGIFLKDSAQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-INPNCYAKVMMVNGDHRIGIFAKRAIQPGEELFFDYRYGPTEQLKFVGIEREMEFL"/>
+                    <sequence id="seq_Trichinella_pseudospiralis_KRZ46305" taxon="Trichinella_pseudospiralis_KRZ46305" totalcount="20" value="-------------------MDILYSRKRLVGRTRVEKSAEGSPTLVETKMMMDIYGEIINDYRQPVSNAKVNDFDMSNYEAMVHDLWKDSQRMPYTNEDRVSLVDVDTVSCFNEKSENPSISYNLFVIKIDEKTNSHTKNWMMIPKNFLGRPCYDLRTLRDDQQEQNH-HRFLPDFAFYKLVLKASEVFYN-----------------------EDVAEQWSGEL-------------ILPNDRLFTIIHHLFPHKLSANNLKELFIHIF-----------CMLNEKKGNKKLQHLNDRESIFVKAFCPICFQFCCTTHGESLVDPMYVQYNPKLNKKQKAKDPCGKFCYLKSLEKNTVRVLRHNSLKSRA----------------------------------------------------------------------------------SKVKLEWTAEREEMLRALESLFGLNSCHIAECLN-TPYCAEVYTRIVKSEGVVSAARKVEEENLKIPEIPKKMFKVLYSSGSSDSDSDWDSDGEGMEAYKPCYCRGRCRDNSNCSCNEREYCEKYCRCSDNCSKRYLGCNCKG-VCHRKVCLCMKNNRECDPTLCKNCGGN-----QLLICKNDFMQNGIRRRLYVCESNVHGLGLFTTEDIVAGDFICEYRGEILTKAEAQRRGKIYDSRGMSFLFMLNTDFDLDATRFGSVARFINHS-KIPNCVPQVKMVLGSHRIAFYATRNIEANEELFFNYGVLPECVKLLLERLS-----"/>
+                    <sequence id="seq_XP_003432121_Canis_lupus_familiaris" taxon="XP_003432121_Canis_lupus_familiaris" totalcount="20" value="---MGQTGKKSEKGPVCWRKRVKSEYMRLRQLKRFRRADEVKSMFSSNRQKILERTEILNQEWKQRRIQPVHILTSVSSLRGTRECSVTSDL-DFP-TQVIPLKTLNAVASVPIMYSWSPLQQNFMVEDETVLHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALGQYNDDDDDDDGDD--PDERE-----EKQKDLEENRDDKESRPP--------RKFPSDKIFEAISSMFPDKGTAEELKEKYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNTYKRKNTETALDNKPCGPQCYQHLEG---AKEFAAALTAERIKTPPKRPGGRRRGRLPNNSSRPSTPTINVLESKDTDSDREAGTETGGENNDKEEEEKKDETSSSSEANSRCQTPIKMKPNIEPPENVEWSGAEASMFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPAPAEDVDTPPRKKKRKHRLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVIAQNFCEKFCQCSSECQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIFIKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VNPNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP"/>
+                    <sequence id="seq_XP_023495668_Equus_caballus" taxon="XP_023495668_Equus_caballus" totalcount="20" value="---MGQTGKKSEKGPVCWRKRVKSEYMRLRQLKRFRRADEVKSMFSSNRQKILERTEILNQEWKQRRIQPVHILTSVSSLRGTRECSVTSDL-DFP-TQVIPLKTLNAVASVPIMYSWSPLQQNFMVEDETVLHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALGQYNDDDDDDDGDD--PDERE-----EKQKDLEENRDDKESCPP--------RKFPSDKIFEAISSMFPDKGTAEELKEKYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNTYKRKNTETALDNKPCGPQCYQHLEG---AKEFAAALTAERIKTPPKRPGGRRRGRLPNNSSRPSTPTINVLESKDTDSDREAGTETGGENNDKEEEEKKDETSSSSEANSRCQTPIKMKPNIEPPENVEWSGAEASMFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPAPAEDVDTPPRKKKRKHRLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVIAQNFCEKFCQCSSECQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIFIKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VNPNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP"/>
+                    <sequence id="seq_Xenopus_tropicalis_XP_012820251" taxon="Xenopus_tropicalis_XP_012820251" totalcount="20" value="RIIMGQTGKKSEKGPVCWRKRVKSEYMRLRQLKRFRRADEVKSMFNTNRQKIMERTEILNQEWKQRRIQPVHIMTTVSSLRGTRECSVTSDL-DFP-KQVIPLKTLTAVASVPIMYSWSPLQQNFMVEDETVLHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALAQYSDYEDDEDGDDNQDDERD-----DTAKDQDDNMEDQETQPL--------RKFPSDKIFEAISSMFPDKGTLEELKEKYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNTYKRKNNEAANDGKPCGPHCYQLLEG---AREFAAALTAERIKTPPKRPSGRRRGRLPNNTSRPSTPTVNVLEAKDTDSDREAGTETGGESNDKEEEEKKDETSSSSEANSRCQTPIKMKPNIEPPENVEWSGAEASLFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPVIAEDVDTPPRKKKRKHRLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVIAQNFCEKFCQCSSECQNRFPGCRCKA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIFIKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VNPNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP"/>
+                </data>
+
+
+    
+
+
+    
+
+
+    
+<map name="Uniform" >beast.math.distributions.Uniform</map>
+<map name="Exponential" >beast.math.distributions.Exponential</map>
+<map name="LogNormal" >beast.math.distributions.LogNormalDistributionModel</map>
+<map name="Normal" >beast.math.distributions.Normal</map>
+<map name="Beta" >beast.math.distributions.Beta</map>
+<map name="Gamma" >beast.math.distributions.Gamma</map>
+<map name="LaplaceDistribution" >beast.math.distributions.LaplaceDistribution</map>
+<map name="prior" >beast.math.distributions.Prior</map>
+<map name="InverseGamma" >beast.math.distributions.InverseGamma</map>
+<map name="OneOnX" >beast.math.distributions.OneOnX</map>
+
+
+<run id="mcmc" spec="MCMC" chainLength="25000000">
+    <state id="state" storeEvery="5000">
+        <tree id="Tree.t:bird_reptile_fly_mega_aligntrim" name="stateNode">
+            <taxonset id="TaxonSet.bird_reptile_fly_mega_aligntrim" spec="TaxonSet">
+                <alignment idref="bird_reptile_fly_mega_aligntrim"/>
+            </taxonset>
+        </tree>
+        <parameter id="mutationRate.s:bird_reptile_fly_mega_aligntrim" name="stateNode">1.0</parameter>
+        <parameter id="gammaShape.s:bird_reptile_fly_mega_aligntrim" name="stateNode">1.0</parameter>
+        <stateNode id="indicators.alltrees" spec="parameter.BooleanParameter">false</stateNode>
+        <parameter id="populationMean.alltrees" name="stateNode">1.0</parameter>
+        <parameter id="popSizes.alltrees" name="stateNode">1.0</parameter>
+        <parameter id="ucldStdev.c:bird_reptile_fly_mega_aligntrim" lower="0.0" name="stateNode">0.1</parameter>
+        <stateNode id="rateCategories.c:bird_reptile_fly_mega_aligntrim" spec="parameter.IntegerParameter" dimension="38">1</stateNode>
+    </state>
+
+    <init id="RandomTree.t:bird_reptile_fly_mega_aligntrim" spec="beast.evolution.tree.RandomTree" estimate="false" initial="@Tree.t:bird_reptile_fly_mega_aligntrim" taxa="@bird_reptile_fly_mega_aligntrim">
+        <populationModel id="ConstantPopulation0.t:bird_reptile_fly_mega_aligntrim" spec="ConstantPopulation">
+            <parameter id="randomPopSize.t:bird_reptile_fly_mega_aligntrim" name="popSize">1.0</parameter>
+        </populationModel>
+    </init>
+
+    <distribution id="posterior" spec="util.CompoundDistribution">
+        <distribution id="prior" spec="util.CompoundDistribution">
+            <distribution id="ExtendedBayesianSkyline.t:bird_reptile_fly_mega_aligntrim" spec="Coalescent">
+                <populationModel id="scaledDemo.t:bird_reptile_fly_mega_aligntrim" spec="ScaledPopulationFunction">
+                    <population id="demographic.alltrees" spec="CompoundPopulationFunction" populationIndicators="@indicators.alltrees" populationSizes="@popSizes.alltrees">
+                        <itree id="treeIntervals.t:bird_reptile_fly_mega_aligntrim" spec="TreeIntervals" tree="@Tree.t:bird_reptile_fly_mega_aligntrim"/>
+                    </population>
+                    <parameter id="RealParameter.1" lower="0.0" name="factor" upper="0.0">1.0</parameter>
+                </populationModel>
+                <treeIntervals idref="treeIntervals.t:bird_reptile_fly_mega_aligntrim"/>
+            </distribution>
+            <prior id="GammaShapePrior.s:bird_reptile_fly_mega_aligntrim" name="distribution" x="@gammaShape.s:bird_reptile_fly_mega_aligntrim">
+                <LogNormal id="LogNormalDistributionModel.0" name="distr">
+                    <parameter id="RealParameter.9" estimate="false" name="M">1.0</parameter>
+                    <parameter id="RealParameter.10" estimate="false" lower="0.0" name="S" upper="5.0">1.25</parameter>
+                </LogNormal>
+            </prior>
+            <prior id="indicatorsPrior.alltrees" name="distribution">
+                <x id="indsSun.alltrees" spec="util.Sum">
+                    <arg idref="indicators.alltrees"/>
+                </x>
+                <distr id="Poisson.EBSP" spec="beast.math.distributions.Poisson">
+                    <parameter id="RealParameter.2" estimate="false" name="lambda" upper="0.0">0.69314718056</parameter>
+                </distr>
+            </prior>
+            <prior id="popSizePrior.alltrees" name="distribution" x="@popSizes.alltrees">
+                <Exponential id="popPriorDist.EBSP" mean="@populationMean.alltrees" name="distr"/>
+            </prior>
+            <prior id="populationMeanPrior.alltrees" name="distribution" x="@populationMean.alltrees">
+                <OneOnX id="OneOnX.EBSP" name="distr"/>
+            </prior>
+            <prior id="ucldStdevPrior.c:bird_reptile_fly_mega_aligntrim" name="distribution" x="@ucldStdev.c:bird_reptile_fly_mega_aligntrim">
+                <Gamma id="Gamma.1" name="distr">
+                    <parameter id="RealParameter.7" estimate="false" name="alpha">0.5396</parameter>
+                    <parameter id="RealParameter.8" estimate="false" name="beta">0.3819</parameter>
+                </Gamma>
+            </prior>
+        </distribution>
+        <distribution id="likelihood" spec="util.CompoundDistribution" useThreads="true">
+            <distribution id="treeLikelihood.bird_reptile_fly_mega_aligntrim" spec="ThreadedTreeLikelihood" data="@bird_reptile_fly_mega_aligntrim" tree="@Tree.t:bird_reptile_fly_mega_aligntrim">
+                <siteModel id="SiteModel.s:bird_reptile_fly_mega_aligntrim" spec="SiteModel" gammaCategoryCount="4" mutationRate="@mutationRate.s:bird_reptile_fly_mega_aligntrim" shape="@gammaShape.s:bird_reptile_fly_mega_aligntrim">
+                    <parameter id="proportionInvariant.s:bird_reptile_fly_mega_aligntrim" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                    <substModel id="JTT.s:bird_reptile_fly_mega_aligntrim" spec="JTT"/>
+                </siteModel>
+                <branchRateModel id="RelaxedClock.c:bird_reptile_fly_mega_aligntrim" spec="beast.evolution.branchratemodel.UCRelaxedClockModel" rateCategories="@rateCategories.c:bird_reptile_fly_mega_aligntrim" tree="@Tree.t:bird_reptile_fly_mega_aligntrim">
+                    <LogNormal id="LogNormalDistributionModel.c:bird_reptile_fly_mega_aligntrim" S="@ucldStdev.c:bird_reptile_fly_mega_aligntrim" meanInRealSpace="true" name="distr">
+                        <parameter id="RealParameter.6" estimate="false" lower="0.0" name="M" upper="1.0">1.0</parameter>
+                    </LogNormal>
+                    <parameter id="ucldMean.c:bird_reptile_fly_mega_aligntrim" estimate="false" name="clock.rate">1.0</parameter>
+                </branchRateModel>
+            </distribution>
+        </distribution>
+    </distribution>
+
+    <operator id="FixMeanMutationRatesOperator" spec="DeltaExchangeOperator" delta="0.75" weight="2.0">
+        <parameter idref="mutationRate.s:bird_reptile_fly_mega_aligntrim"/>
+        <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">780</weightvector>
+    </operator>
+
+    <operator id="gammaShapeScaler.s:bird_reptile_fly_mega_aligntrim" spec="ScaleOperator" parameter="@gammaShape.s:bird_reptile_fly_mega_aligntrim" scaleFactor="0.5" weight="0.1"/>
+
+    <operator id="ExtendedBayesianSkylineTreeScaler.t:bird_reptile_fly_mega_aligntrim" spec="ScaleOperator" scaleFactor="0.5" tree="@Tree.t:bird_reptile_fly_mega_aligntrim" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineTreeRootScaler.t:bird_reptile_fly_mega_aligntrim" spec="ScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:bird_reptile_fly_mega_aligntrim" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineUniformOperator.t:bird_reptile_fly_mega_aligntrim" spec="Uniform" tree="@Tree.t:bird_reptile_fly_mega_aligntrim" weight="30.0"/>
+
+    <operator id="ExtendedBayesianSkylineSubtreeSlide.t:bird_reptile_fly_mega_aligntrim" spec="SubtreeSlide" tree="@Tree.t:bird_reptile_fly_mega_aligntrim" weight="15.0"/>
+
+    <operator id="ExtendedBayesianSkylineNarrow.t:bird_reptile_fly_mega_aligntrim" spec="Exchange" tree="@Tree.t:bird_reptile_fly_mega_aligntrim" weight="15.0"/>
+
+    <operator id="ExtendedBayesianSkylineWide.t:bird_reptile_fly_mega_aligntrim" spec="Exchange" isNarrow="false" tree="@Tree.t:bird_reptile_fly_mega_aligntrim" weight="3.0"/>
+
+    <operator id="ExtendedBayesianSkylineWilsonBalding.t:bird_reptile_fly_mega_aligntrim" spec="WilsonBalding" tree="@Tree.t:bird_reptile_fly_mega_aligntrim" weight="3.0"/>
+
+    <operator id="bitflip.alltrees" spec="BitFlipOperator" parameter="@indicators.alltrees" weight="30.0"/>
+
+    <operator id="indicatorSampler.alltrees" spec="SampleOffValues" dist="@popPriorDist.EBSP" indicators="@indicators.alltrees" values="@popSizes.alltrees" weight="15.0"/>
+
+    <operator id="indicatorScaler.alltrees" spec="ScaleOperator" degreesOfFreedom="1" indicator="@indicators.alltrees" parameter="@popSizes.alltrees" scaleFactor="0.5" weight="15.0"/>
+
+    <operator id="EBSPupDownOperator.alltrees" spec="UpDownOperator" scaleFactor="0.7" weight="5.0">
+        <up idref="popSizes.alltrees"/>
+        <up idref="populationMean.alltrees"/>
+    </operator>
+
+    <operator id="ucldStdevScaler.c:bird_reptile_fly_mega_aligntrim" spec="ScaleOperator" parameter="@ucldStdev.c:bird_reptile_fly_mega_aligntrim" scaleFactor="0.5" weight="3.0"/>
+
+    <operator id="CategoriesRandomWalk.c:bird_reptile_fly_mega_aligntrim" spec="IntRandomWalkOperator" parameter="@rateCategories.c:bird_reptile_fly_mega_aligntrim" weight="10.0" windowSize="1"/>
+
+    <operator id="CategoriesSwapOperator.c:bird_reptile_fly_mega_aligntrim" spec="SwapOperator" intparameter="@rateCategories.c:bird_reptile_fly_mega_aligntrim" weight="10.0"/>
+
+    <operator id="CategoriesUniform.c:bird_reptile_fly_mega_aligntrim" spec="UniformOperator" parameter="@rateCategories.c:bird_reptile_fly_mega_aligntrim" weight="10.0"/>
+
+    <logger id="tracelog" fileName="bird_reptile_fly_mega_aligntrim.log" logEvery="2500" model="@posterior" sanitiseHeaders="true" sort="smart">
+        <log idref="posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+        <log idref="treeLikelihood.bird_reptile_fly_mega_aligntrim"/>
+        <log id="TreeHeight.t:bird_reptile_fly_mega_aligntrim" spec="beast.evolution.tree.TreeHeightLogger" tree="@Tree.t:bird_reptile_fly_mega_aligntrim"/>
+        <log idref="mutationRate.s:bird_reptile_fly_mega_aligntrim"/>
+        <log idref="gammaShape.s:bird_reptile_fly_mega_aligntrim"/>
+        <log idref="ExtendedBayesianSkyline.t:bird_reptile_fly_mega_aligntrim"/>
+        <log idref="indicators.alltrees"/>
+        <log idref="populationMean.alltrees"/>
+        <log idref="popSizes.alltrees"/>
+        <log id="sumIndicators" spec="util.Sum">
+            <arg idref="indicators.alltrees"/>
+        </log>
+        <log idref="ucldStdev.c:bird_reptile_fly_mega_aligntrim"/>
+        <log id="rate.c:bird_reptile_fly_mega_aligntrim" spec="beast.evolution.branchratemodel.RateStatistic" branchratemodel="@RelaxedClock.c:bird_reptile_fly_mega_aligntrim" tree="@Tree.t:bird_reptile_fly_mega_aligntrim"/>
+    </logger>
+
+    <logger id="screenlog" logEvery="2500">
+        <log idref="posterior"/>
+        <log id="ESS.0" spec="util.ESS" arg="@posterior"/>
+        <log idref="likelihood"/>
+        <log idref="prior"/>
+    </logger>
+
+    <logger id="treelog.t:bird_reptile_fly_mega_aligntrim" fileName="$(tree).trees" logEvery="1000" mode="tree">
+        <log id="TreeWithMetaDataLogger.t:bird_reptile_fly_mega_aligntrim" spec="beast.evolution.tree.TreeWithMetaDataLogger" branchratemodel="@RelaxedClock.c:bird_reptile_fly_mega_aligntrim" tree="@Tree.t:bird_reptile_fly_mega_aligntrim"/>
+    </logger>
+
+    <logger id="EBSPLogger" fileName="EBSP.log" logEvery="5000" model="@demographic.alltrees">
+        <log idref="demographic.alltrees"/>
+    </logger>
+
+</run>
+
+</beast>
