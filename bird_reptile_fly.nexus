@@ -1,5 +1,5 @@
 #NEXUS
-[ TITLE ]
+
 BEGIN TAXA;
        DIMENSIONS NTAX=20;
        TAXLABELS

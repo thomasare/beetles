@@ -1,0 +1,42 @@
+;   MEGA X (Molecular Evolutionary Genetics Analysis)
+;
+;   Suggested Citation for MEGA X:
+;
+;   Kumar S, Stecher G, Li M, Knyaz C, Tamura K
+;   MEGA X: Molecular Evolutionary Genetics Analysis across computing platforms
+;   Molecular Biology and Evolution (2018) 35:1547-1549
+
+[Application Info]
+
+	Version                                 = 10.2.0
+	Build                                   = 10201016-x86_64
+	User Interface                          = Graphical
+	Operating System                        = windows
+
+[General Info]
+
+	Data Type                               = amino acid
+	No. of Taxa                             =       20
+	No. of Sites                            =      780
+	Data File                               = 
+
+[Analysis Settings]
+
+	Scope                                   = All Selected Taxa
+	Statistical Method                      = Neighbor-joining
+	Test of Phylogeny                       = Bootstrap method
+	No. of Bootstrap Replications           = 1000
+	Substitutions Type                      = Amino acid
+	Rates among Sites                       = Gamma Distributed (G)
+	Gamma Parameter                         = 1.00
+	Pattern among Lineages                  = Same (Homogeneous)
+	Gaps/Missing Data Treatment             = Pairwise deletion
+	Number of Threads                       = 3
+
+[Analysis Statistics]
+
+	Start Time                              = 10/28/2020 21:16:49
+	End Time                                = 10/28/2020 21:20:33
+	Execution Time                          =  224.497 (seconds)
+	Peak Memory Used(Working Set)           =  202.746 (MB)
+	Sum of branch lengths                   =   11.203
