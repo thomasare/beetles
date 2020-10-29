@@ -1,0 +1,487 @@
+
+P A U P *
+Version 4.0a (build 168) for Unix/Linux (built on Aug  2 2020 at 07:23:11)
+Wed Oct 28 10:34:46 2020
+
+
+paup> outgroup 13
+
+Outgroup status changed:
+  1 taxon transferred to outgroup
+  Total number of taxa now in outgroup = 1
+  Number of ingroup taxa = 19
+
+paup> show data matrix
+
+Error(#145): Ambiguous command abbreviation: show (showCPartition showAnc)
+
+paup> ShowMatrix
+
+Input data matrix:
+
+                                           1         2         3         4         5         6     6
+Taxon                             123456789012345678901234567890123456789012345678901234567890123456
+----------------------------------------------------------------------------------------------------
+Eudyptes sclateri KAF1525276      RIIMGQTGKKSEKGPICWRKRVKSEYMRLRQLKRFRRADEVKSMFNSNRQKILERTEILNQEWKQR
+Anolis carolinensis XP 016849929  RIIMGQTGKKSEKGPICWRKRVKSEYMRLRQLKRFRRADEVKSMFNSNRQKIQERTEILNQEWKQR
+Drosophilia melanogaster FBtr007  --------MNSTKVPPEWKRRVKSEYIKIRQQKRYKRADEIKEAWIRN---WDEHNHNVQDLYCES
+Pan troglodytes XP 009452721      RIIMGQTGKKSEKGPVCWRKRVKSEYMRLRQLKRFRRADEVKSMFSSNRQKILERTEILNQEWKQR
+Macaca mulatta NP 001253432       ---MGQTGKKSEKGPVCWRKRVKSEYMRLRQLKRFRRADEVKSMFSSNRQKILERTEILNQEWKQR
+XP 003432121 Canis lupus familia  ---MGQTGKKSEKGPVCWRKRVKSEYMRLRQLKRFRRADEVKSMFSSNRQKILERTEILNQEWKQR
+XP 023495668 Equus caballus       ---MGQTGKKSEKGPVCWRKRVKSEYMRLRQLKRFRRADEVKSMFSSNRQKILERTEILNQEWKQR
+Mus musculus NP 031997            ---MGQTGKKSEKGPVCWRKRVKSEYMRLRQLKRFRRADEVKTMFSSNRQKILERTETLNQEWKQR
+Xenopus tropicalis XP 012820251   RIIMGQTGKKSEKGPVCWRKRVKSEYMRLRQLKRFRRADEVKSMFNTNRQKIMERTEILNQEWKQR
+Danio rerio NP 001070747          ---MGLTGRKSEKGPVCWRRRVKSEYMRLRQLKRFRRADEVKSMFSSNRQKILERTDILNQEWKLR
+Octopus sinensis XP 029645707     GADSKQDGPASKPASTDWRKRVRGEYMRLCQVKRFKRNDEVRCAFSSNRKLINDELEKHNCWWKEQ
+Callorhinchus milii XP 007904509  ---MGFTGRKSTKGPVCWRKRVKSEYMRLRQLKRFRRADEVKSRFSANRQKIKEKTEILNQDWKQH
+Hydra vulgaris XP 012555810       ------------------------------------------------------------------
+Asterias rubens XP 033629619      RSSTSTPDKTTGKMPFDLKRKVKSEYMRLRQLKRFRRADTVRTIWAKNRVLIAESTQRNNSSWCEG
+Strongylocentrotus purpuratus XP  KSERSVSEKSEKNTFTDLKSIVKSEYMSLVANRRFKRAGEIRMIWSANRKSIEERTEENERKNLER
+Trichinella pseudospiralis KRZ46  -------------------MDILYSRKRLVGRTRVEKSAEGSPTLVETKMMMDIYGEIINDYRQPV
+Caenorhabditis elegans NP 496992  FSSEKIKETVCEQGIEECKRMLKGHFNAIKDDYDIRVKDELKDWLKDASSSVNEYRRRLQENLGEG
+Tcas EZH2 protein                 --------MSKVKVSNEWKRHVKQEYIRLRQQKRFKRADDVKLAWNQNRIKMTENLIAEQKRWTES
+Dpon EZH2ortho protein            --------MSKVKNTFDWKKRVKQEYLRLRQQKRYKRADDVKVAWNRNKEQMTDILISEQKRWTDG
+Agla EZH2orth protein             --------MAKAKVSADWKKRVKQEYMRLRQQKRYKRADDVKLAWNQNRNKMTETLIAEQKRWTES
+
+Input data matrix (continued):
+
+                                                                   1                               1
+                                  6  7         8         9         0         1         2         3 3
+Taxon                             789012345678901234567890123456789012345678901234567890123456789012
+----------------------------------------------------------------------------------------------------
+Eudyptes sclateri KAF1525276      RIQPVHIMTSVSSLRGTRECSVTSDI-DFP-KQVIPLKTLNAVASVPIMYSWSPLQQNFMVEDETV
+Anolis carolinensis XP 016849929  RIQPVHIMTSVSSLRGTRECSVTSDL-DFP-KQVIPLKTLNAVASVPIMYSWSPLQQNFMVEDETV
+Drosophilia melanogaster FBtr007  K-VWQAKPYDPPHVDCVKRAEVTSYNGIPSGPQKVPICVINAVTPIPTMYTWAPTQQNFMVEDETV
+Pan troglodytes XP 009452721      RIQPVHILTSVSSLRGTRECSVTSDL-DFP-TQVIPLKTLNAVASVPIMYSWSPLQQNFMVEDETV
+Macaca mulatta NP 001253432       RIQPVHILTSVSSLRGTRECSVTSDL-DFP-TQVIPLKTLNAVASVPIMYSWSPLQQNFMVEDETV
+XP 003432121 Canis lupus familia  RIQPVHILTSVSSLRGTRECSVTSDL-DFP-TQVIPLKTLNAVASVPIMYSWSPLQQNFMVEDETV
+XP 023495668 Equus caballus       RIQPVHILTSVSSLRGTRECSVTSDL-DFP-TQVIPLKTLNAVASVPIMYSWSPLQQNFMVEDETV
+Mus musculus NP 031997            RIQPVHIMTSVSSLRGTRECSVTSDL-DFP-AQVIPLKTLNAVASVPIMYSWSPLQQNFMVEDETV
+Xenopus tropicalis XP 012820251   RIQPVHIMTTVSSLRGTRECSVTSDL-DFP-KQVIPLKTLTAVASVPIMYSWSPLQQNFMVEDETV
+Danio rerio NP 001070747          RIQPVHIMTPVSSLRGTRECTVDSGFSEFS-RQVIPLKTLNAVASVPVMYSWSPLQQNFMVEDETV
+Octopus sinensis XP 029645707     PSQPLHAPETFSQIPVTRKCEVESGM-SFP-HQMAPLRVMNALKPIPTMYSWAPLQQNFMVEDETI
+Callorhinchus milii XP 007904509  RIQPVHIMTSVSTMRGTRECTVESGFPEFS-KQIIPLKTLNAVASIPVMYSWSPLQQNFMVEDETV
+Hydra vulgaris XP 012555810       ------------------------------------------------------------------
+Asterias rubens XP 033629619      PFQSIHTVASFDQLPVIRKCSIEVGN-GGP-PQSGPLYTLNSITSVPWVYTWEPLQQNFMVDDETV
+Strongylocentrotus purpuratus XP  PFQSIHTAASFDQLPITRKCSIEVGS-NKH-KQTASLHTLNGVSSVPCVYTWAPLQQNFMVEDETV
+Trichinella pseudospiralis KRZ46  SNAKVNDFDMSNYEAMVHDLWKDSQRMPYTNEDRVSLVDVDTVSCFNEKSENPSISYNLFVIKIDE
+Caenorhabditis elegans NP 496992  RTIAKFSFKKVSDSTVTWIKPDRTEEGDLMKKFRAPCSRIEVGDISPPMIYWVPIEQSVATPDQLR
+Tcas EZH2 protein                 KAFWVPLPEIPSHVTCMKKAEVIGNEGD---IQVTPIRIINAVTPIPTMYTWAPIQQNFMVEDETV
+Dpon EZH2ortho protein            KACWVQNPDLSAHATCMKKAEVIGNEGD---IQVASIKIINAVTPIPTMYTWAPIQQNFMVEDETV
+Agla EZH2orth protein             KAFWVPTPELPAHVTCMKKAEVIGNEGD---IQVAAIKIINAVTPIPTMYTWAPIQQNFMVEDETV
+
+Input data matrix (continued):
+
+                                  1                                                                1
+                                  3      4         5         6         7         8         9       9
+Taxon                             345678901234567890123456789012345678901234567890123456789012345678
+----------------------------------------------------------------------------------------------------
+Eudyptes sclateri KAF1525276      LHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALGQYSDDEDDDDGD
+Anolis carolinensis XP 016849929  LHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALGQYSDDDDDDDDD
+Drosophilia melanogaster FBtr007  LHNIPYMGDEVLDKDGK-FIEELIKNYDGKVHGDKD-PSFMDDAIFVELVHALMRSYSKGVVDEKT
+Pan troglodytes XP 009452721      LHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALGQYNDDDDDDDGD
+Macaca mulatta NP 001253432       LHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALGQYNDDDDDDDGD
+XP 003432121 Canis lupus familia  LHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALGQYNDDDDDDDGD
+XP 023495668 Equus caballus       LHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALGQYNDDDDDDDGD
+Mus musculus NP 031997            LHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALGQYNDDDDDDDGD
+Xenopus tropicalis XP 012820251   LHNIPYMGDEVLDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALAQYSDYEDDEDGD
+Danio rerio NP 001070747          LHNIPYMGDEILDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALNQYSDNEEDDEED
+Octopus sinensis XP 029645707     LHNIPYMGDDILDQDCA-FIEELLKNYDGKVHGDRD-TKFINDDLFMELVDALWANYNDTDPEQRE
+Callorhinchus milii XP 007904509  LHNIPYMGDEILDQDGT-FIEELIKNYDGKVHGDRE-CGFINDEIFVELVNALTQYSDNDEEDDDD
+Hydra vulgaris XP 012555810       ------------------------------------------------------------------
+Asterias rubens XP 033629619      LHNIPYMGDEVLEQDGS-FIEELIKNYDGKVHGEKE-CGFIDDDAFISLVKSVAVAE---------
+Strongylocentrotus purpuratus XP  LHNIPYMGDEVLEQEQT-FIEELIKNYDGKVHGDRE-GGFIDDEVFVELVRSVAATESQKEEEEEE
+Trichinella pseudospiralis KRZ46  KTNSHTKNWMMIPKNFLGRPCYDLRTLRDDQQEQNH-HRFLPDFAFYKLVLKASEVFYN-------
+Caenorhabditis elegans NP 496992  LTHMPYFGDGIDDGNIY---EHLIDMFPDGIHGFSDNWSYVNDWILYKLCRAALKDYQG-------
+Tcas EZH2 protein                 LHNIPYMGDDLLDQDGT-FIEELIKNYDGKVHGDRE-SGFIDDELFVELVHALMQ--------YQD
+Dpon EZH2ortho protein            LHNIPYMGDEILDQDGT-FIEELIKNYDGKVHGDQE-SGFIDDELFIELVHALMQ--------FQE
+Agla EZH2orth protein             LHNIPYMGDEILDQDGT-FIEELIKNYDGKVHGDRE-SGFIDDELFVELVHALMQ--------YQE
+
+Input data matrix (continued):
+
+                                  12                                                               2
+                                  90         1         2         3         4         5         6   6
+Taxon                             901234567890123456789012345678901234567890123456789012345678901234
+----------------------------------------------------------------------------------------------------
+Eudyptes sclateri KAF1525276      DN-PDERD-----DKQKDREGNRMEKESHPP--------RRFPSDKIFEAISSMFPDKGTAEELKE
+Anolis carolinensis XP 016849929  DH-LDRRD-----EKQKNQESNQIDKESHPP--------RKFPSDKIFEAISSMFPDKGTAEELKE
+Drosophilia melanogaster FBtr007  DSKGDLTEV----EKKETEEPLETEDADVKPDVEEVKDKLPFPAPIIFQAISANFPDKGTAQELKE
+Pan troglodytes XP 009452721      D--PEERE-----EKQKDLEDHRDDKESRPP--------RKFPSDKIFEAISSMFPDKGTAEELKE
+Macaca mulatta NP 001253432       D--PEERE-----EKQKDLEDHRDDKESRPP--------RKFPSDKIFEAISSMFPDKGTAEELKE
+XP 003432121 Canis lupus familia  D--PDERE-----EKQKDLEENRDDKESRPP--------RKFPSDKIFEAISSMFPDKGTAEELKE
+XP 023495668 Equus caballus       D--PDERE-----EKQKDLEENRDDKESCPP--------RKFPSDKIFEAISSMFPDKGTAEELKE
+Mus musculus NP 031997            D--PDERE-----EKQKDLEDNRDDKETCPP--------RKFPADKIFEAISSMFPDKGTAEELKE
+Xenopus tropicalis XP 012820251   DNQDDERD-----DTAKDQDDNMEDQETQPL--------RKFPSDKIFEAISSMFPDKGTLEELKE
+Danio rerio NP 001070747          DHHDYKFEKMDLCDGKDDAEDHKEQLSSESHNNDGS---KKFPSDKIFEAISSMFPDKGSTEELKE
+Octopus sinensis XP 029645707     LSSPSSQNTN---GIKTELKEDEVDKSRKTP-----------PADIIFQSISAMFPDKGTQEELKE
+Callorhinchus milii XP 007904509  EDQENKSEKTDGSDIKEESNEARKDYQDISMDGKESEEGKKMPCDKIFEAISSMFPDKGTPEELKE
+Hydra vulgaris XP 012555810       ------------------------------------------------------------------
+Asterias rubens XP 033629619      -----------------QVELGVLEKVDDQLEG--------FPSDSVFAAIASQFPDKGKTEDLRK
+Strongylocentrotus purpuratus XP  VKEPEVKEPELKTPELKELELATQELKEPELEMEEDSVPSDFPKDIIFKAIVSFFPERGSIEELKE
+Trichinella pseudospiralis KRZ46  ----------------EDVAEQWSGEL-------------ILPNDRLFTIIHHLFPHKLSANNLKE
+Caenorhabditis elegans NP 496992  ------------------------------------------SPDVFYYTLYRLWPNKSSQREFSS
+Tcas EZH2 protein                 SDKGEKK------DKDKEKTKE-----------EEKKKGLDFPAFIIFQAISSQFPDKGDPEELRE
+Dpon EZH2ortho protein            --KPEEKKV----DKKKE-EKDLERDDLPNDEDDKQKSDLEFPSIVIFQAISSQFPDKGGSEELRD
+Agla EZH2orth protein             KDKPEKRKD----DKDKKDDKEKKEKEVEEDDKEKKKEELEFPAFVIFQAISLQFPDKGGPEELRD
+
+Input data matrix (continued):
+
+                                  2                                  3                             3
+                                  6    7         8         9         0         1         2         3
+Taxon                             567890123456789012345678901234567890123456789012345678901234567890
+----------------------------------------------------------------------------------------------------
+Eudyptes sclateri KAF1525276      KYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNT
+Anolis carolinensis XP 016849929  KYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNT
+Drosophilia melanogaster FBtr007  KYIELTEHQDPE-RPQECTPNIDGIKAESVSRERTMHSFHTLFCRRCFKYDCFLHRLQG-HAGPNL
+Pan troglodytes XP 009452721      KYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNT
+Macaca mulatta NP 001253432       KYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNT
+XP 003432121 Canis lupus familia  KYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNT
+XP 023495668 Equus caballus       KYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNT
+Mus musculus NP 031997            KYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNT
+Xenopus tropicalis XP 012820251   KYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNT
+Danio rerio NP 001070747          KYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFQATPNT
+Octopus sinensis XP 029645707     KYIDLMETQDPNNIPPECTPNIDGPNARSVPREQTMHSFHTLFCRRCFKYDCFLH---PYHPTPSM
+Callorhinchus milii XP 007904509  KYKELTEQQLPGALPPECTPNIDGPNAKSVQREQSLHSFHTLFCRRCFKYDCFLH---PFHATPNT
+Hydra vulgaris XP 012555810       -----------------------------------------MAVR----------------PGPVK
+Asterias rubens XP 033629619      RYRNLQMKDIPSTVVLECTPNIDGPAAKSVPREQTMHSFHTLFCRRCYKYDCFLH---PYHPTPSQ
+Strongylocentrotus purpuratus XP  RYRELTEKQDPNILPPECTPNIDGPNAKSVPRDETMHSFHTLFCRRCYKYDCFLH---PYHPTPSQ
+Trichinella pseudospiralis KRZ46  LFIHIF-----------CMLNEKKGNKKLQHLNDRESIFVKAFCPICFQFCCTTHGESLVDPMYVQ
+Caenorhabditis elegans NP 496992  AFPVLCENFAEKGFDPSSLEP-----WKKTKIAEGAQNLRNPTCYACLAYTCAIHGFKAEIPIEFP
+Tcas EZH2 protein                 KYIELTERTDPN-APPECTPNIDGPKAASVPREQTMHSFHTLFCRRCFKYDCFLHRLQACHPGPNL
+Dpon EZH2ortho protein            KYIELTERTDPS-SPPECTPNIDGACAASVPREQTMHSFHTLFCRRCFKYDCFLHRLQACHPGPNL
+Agla EZH2orth protein             KYVELTERTDPN-APPECTPNIDGPNAASVPREQTMHSFHTLFCRRCFKYDCFLHRLQACHPGPNL
+
+Input data matrix (continued):
+
+                                  3                                                                3
+                                  3        4         5         6         7         8         9     9
+Taxon                             123456789012345678901234567890123456789012345678901234567890123456
+----------------------------------------------------------------------------------------------------
+Eudyptes sclateri KAF1525276      YKRKNTETALDNKPCGPHCYQHLEG---AKEFAAALTAERIKTPPKRPGGRRRGRLPNNTSRPSTP
+Anolis carolinensis XP 016849929  YKRKNTEMAIDNKPCGPHCYQHLEG---AKEFAAALTAERIKTPPKRPGGRRRGRLPNNTSRPSTP
+Drosophilia melanogaster FBtr007  QKRRYPELKPFAEPCSNSCYMLIDG---MKEKLAADSKTPP-----IDSCNEASSEDSNDSNSQFS
+Pan troglodytes XP 009452721      YKRKNTETALDNKPCGPQCYQHLEG---AKEFAAALTAERIKTPPKRPGGRRRGRLPNNSSRPSTP
+Macaca mulatta NP 001253432       YKRKNTETALDNKPCGPQCYQHLEG---AKEFAAALTAERIKTPPKRPGGRRRGRLPNNSSRPSTP
+XP 003432121 Canis lupus familia  YKRKNTETALDNKPCGPQCYQHLEG---AKEFAAALTAERIKTPPKRPGGRRRGRLPNNSSRPSTP
+XP 023495668 Equus caballus       YKRKNTETALDNKPCGPQCYQHLEG---AKEFAAALTAERIKTPPKRPGGRRRGRLPNNSSRPSTP
+Mus musculus NP 031997            YKRKNTETALDNKPCGPQCYQHLEG---AKEFAAALTAERIKTPPKRPGGRRRGRLPNNSSRPSTP
+Xenopus tropicalis XP 012820251   YKRKNNEAANDGKPCGPHCYQLLEG---AREFAAALTAERIKTPPKRPSGRRRGRLPNNTSRPSTP
+Danio rerio NP 001070747          YKRKNMENLVDSKPCGIYCYMYMVQDGMVREYPAGVVPERAKTPSKRSTGRRRGRLPNSNSRPSTP
+Octopus sinensis XP 029645707     LTRKMPEKKQEAEPCGETCFMHLTG---YKEQTNGEQHDGNKCDGKAGLERSERAKTSPTRTVGRK
+Callorhinchus milii XP 007904509  YKRKNPETRAETEHCGSDCCLYLDG---AKDFAVALTAERIKTPPKRPGGRRRGRHPNSTSRPSTP
+Hydra vulgaris XP 012555810       VQRKQLMDIQNIEPCGENCYMHLER-----SLTIQDTKDLP------------KSLPETDRNEDSK
+Asterias rubens XP 033629619      TKPKSTEMRQETEPCGPDCFMIQPKE--SALNSPGSAEKNRSGT-------KRHLTRSEEGVP-IK
+Strongylocentrotus purpuratus XP  TKPKNKEFRTGTEPCGPSCFMHKQEY--SIPELPPPAADKSKGSPFRPGYKKLGGGRSNTSTP-TK
+Trichinella pseudospiralis KRZ46  YNPKLNKKQKAKDPCGKFCYLKSLEKNTVRVLRHNSLKSRA-------------------------
+Caenorhabditis elegans NP 496992  FYNAMLPLPNNPENDGKMCSGNCWKSVTMKEVSEVLVPDSE-------------EILQKEVKIYFM
+Tcas EZH2 protein                 QKRRGPDLKPFTEPCSADCYMLLES---VKERMAAKAKQEE--EAKGKSVTEAGSSTEAKTNGNSN
+Dpon EZH2ortho protein            QKRRGPDLKPFCEPCGPDCYIHLED---VKEKMAAKAKQEEERDKKRKSLVDLVEPRVAASSNSTN
+Agla EZH2orth protein             QKRRGPDLKPFTEPCGSDCYMLLDV---VKEKMAAKAKQEEEKEIKVKSTRSIGESSDPKVNGVSS
+
+Input data matrix (continued):
+
+                                  3  4                                                             4
+                                  9  0         1         2         3         4         5         6 6
+Taxon                             789012345678901234567890123456789012345678901234567890123456789012
+----------------------------------------------------------------------------------------------------
+Eudyptes sclateri KAF1525276      TINVLESKDTDSDREAGTETGGENNDKEEEEKKDETSSSSEANSRCQTPIKMKPNIEPPENVEWSG
+Anolis carolinensis XP 016849929  TINVLESKDTDSDREAGTETGGENNDKEEEEKKDETSSSSEANSRCQTPIKMKPNTEPPENVEWSG
+Drosophilia melanogaster FBtr007  NKDFNHENSKDNGLTVNSAAVAEIN-------------SIMAG--------MMNIT--STQCVWTG
+Pan troglodytes XP 009452721      TINVLESKDTDSDREAGTETGGENNDKEEEEKKDETSSSSEANSRCQTPIKMKPNIEPPENVEWSG
+Macaca mulatta NP 001253432       TINVLESKDTDSDREAGTETGGENNDKEEEEKKDETSSSSEANSRCQTPIKMKPNIEPPENVEWSG
+XP 003432121 Canis lupus familia  TINVLESKDTDSDREAGTETGGENNDKEEEEKKDETSSSSEANSRCQTPIKMKPNIEPPENVEWSG
+XP 023495668 Equus caballus       TINVLESKDTDSDREAGTETGGENNDKEEEEKKDETSSSSEANSRCQTPIKMKPNIEPPENVEWSG
+Mus musculus NP 031997            TISVLESKDTDSDREAGTETGGENNDKEEEEKKDETSSSSEANSRCQTPIKMKPNIEPPENVEWSG
+Xenopus tropicalis XP 012820251   TVNVLEAKDTDSDREAGTETGGESNDKEEEEKKDETSSSSEANSRCQTPIKMKPNIEPPENVEWSG
+Danio rerio NP 001070747          TVNS-ETKDTDSDREGGAD-GNDSNDKDDDDKKDETTSSSEANSRCQTPVKLKLSSEPPENVDWSG
+Octopus sinensis XP 029645707     RKNGLPASTN----------------GEDSEKSNDADSEIMFP-----------VRKKPTSDEWSG
+Callorhinchus milii XP 007904509  TINLSEAKDTDSDREAGTDTGGEINDKDEEDKKDDTTSSSEANSRCQTPVKMKLTADLS-DVEWSG
+Hydra vulgaris XP 012555810       MKKFKRKKSFN-----------------KAETSVEVLAPVKST----------YLIEDTNDEPWTS
+Asterias rubens XP 033629619      IN----PSEMTPEK-------------IHP-GSKDASPESEVN-----------VIVTRPGVDWSG
+Strongylocentrotus purpuratus XP  FLGELDPDFQPFDKP-----------FIEPESSSNDSLPAETN-----------LVTSD---EWNG
+Trichinella pseudospiralis KRZ46  ---------------------------------------------------------SKVKLEWTA
+Caenorhabditis elegans NP 496992  KSRIAKMPIEDGALIVNIYVFNTYIPFCEFVKKYVDEDDEESK---------IRSCRDAYHLMMSM
+Tcas EZH2 protein                 PRKVCKQQSVDSGNEASSEDSNDSNKYKDSTDQDQVSTTTSFS--------LLGLMGANDHKEWTG
+Dpon EZH2ortho protein            PRKICKQTSVDSGNEASSEDSNDSN--KDCDNGDPVSTTTSFS--------LLGLMGANDHNEWTG
+Agla EZH2orth protein             LRKICKQQSVDSGNEASSEDSNDSNKYKDTDGSDPVSTTTSFS--------LLGLMGANDHNEWTG
+
+Input data matrix (continued):
+
+                                  4                                    5                           5
+                                  6      7         8         9         0         1         2       2
+Taxon                             345678901234567890123456789012345678901234567890123456789012345678
+----------------------------------------------------------------------------------------------------
+Eudyptes sclateri KAF1525276      AEASMFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPVPAEDVDTPPRKKKRKH
+Anolis carolinensis XP 016849929  AEASMFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPAPAEDVDTPPRKKKRKH
+Drosophilia melanogaster FBtr007  ADQALYRVLHKVYLKNYCAIAHNML-TKTCRQVYEFAQKED---AEFSFEDLRQDFTPPRKKKKKQ
+Pan troglodytes XP 009452721      AEASMFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPAPAEDVDTPPRKKKRKH
+Macaca mulatta NP 001253432       AEASMFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPAPAEDVDTPPRKKKRKH
+XP 003432121 Canis lupus familia  AEASMFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPAPAEDVDTPPRKKKRKH
+XP 023495668 Equus caballus       AEASMFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPAPAEDVDTPPRKKKRKH
+Mus musculus NP 031997            AEASMFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPVPTEDVDTPPRKKKRKH
+Xenopus tropicalis XP 012820251   AEASLFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIAPVIAEDVDTPPRKKKRKH
+Danio rerio NP 001070747          AEASLFRVLIGTYYDNFCAIARLIG-TKTCRQVYEFRVKES---SIIARAPAVDENTPQRKKKRKH
+Octopus sinensis XP 029645707     AEESLFRVLHDVYRNNYCVVAKLIS-SKNCMQVYQFAIKET---AHIPDLKEDRTQTPPRKKKKKN
+Callorhinchus milii XP 007904509  AEASLFRVLHGTYYNNFCAIAKLLG-TKTCRQVYEFAVKES---NIIARVPAEDADTPPRKKKRKH
+Hydra vulgaris XP 012555810       SDLSMFRVLIKNFPNNYCTIAQLLNYSHTCKQIYRHAMLEP---RDEN--PSNDVMTPPTKKKKQV
+Asterias rubens XP 033629619      SDASLFRVLRGVFFNNYCTIASLLK-TKTCRQIFEFAVKEG---ELAELPPERNP-TPPRKKKRKQ
+Strongylocentrotus purpuratus XP  RESSLFRVLRNVYYNNYCAMARLLR-TKTCIQVAEFSAKEG---EAMELSPEHN--TPPRKKKRKQ
+Trichinella pseudospiralis KRZ46  EREEMLRALESLFGLNSCHIAECLN-TPYCAEVYTRIVKSEGVVSAARKVEEENLKIPEIPKKMFK
+Caenorhabditis elegans NP 496992  AENVSARRLKMGQPSNRLSIKDRVN-NFRRNQLSQEKAKRKLRHDSLRIQALRDGLDAEKLIREDM
+Tcas EZH2 protein                 SDESLFRGLHKIFLNNYCAIAQIML-TKTCQQVYEFAQKED---ADIPDEEAMRDYTPPRKKKKKH
+Dpon EZH2ortho protein            SDESLFRALHKVFLNNYCAIAQIIL-TKTCQQVYQFAKKEA---ADIPAEETMRDYTPPRKKKKKH
+Agla EZH2orth protein             SDESLFRALHKVFLNNYCAIAQIML-TKTCQQIYYFAQKEA---ADIPAEEAVRDYTPPRKKKKKH
+
+Input data matrix (continued):
+
+                                  5                                                                5
+                                  23         4         5         6         7         8         9   9
+Taxon                             901234567890123456789012345678901234567890123456789012345678901234
+----------------------------------------------------------------------------------------------------
+Eudyptes sclateri KAF1525276      RLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVIAQNFCEKFCQCSSECQNRFPGCRC
+Anolis carolinensis XP 016849929  RLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDNSCPCVIAQNFCEKFCQCSSECQNRFPGCRC
+Drosophilia melanogaster FBtr007  RLWSLHCRKIQLKKDSSSNHVYNYTPCDHPGHPCDMNCSCIQTQNFCEKFCNCSSDCQNRFPGCRC
+Pan troglodytes XP 009452721      RLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVIAQNFCEKFCQCSSECQNRFPGCRC
+Macaca mulatta NP 001253432       RLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVIAQNFCEKFCQCSSECQNRFPGCRC
+XP 003432121 Canis lupus familia  RLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVIAQNFCEKFCQCSSECQNRFPGCRC
+XP 023495668 Equus caballus       RLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVIAQNFCEKFCQCSSECQNRFPGCRC
+Mus musculus NP 031997            RLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVIAQNFCEKFCQCSSECQNRFPGCRC
+Xenopus tropicalis XP 012820251   RLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVIAQNFCEKFCQCSSECQNRFPGCRC
+Danio rerio NP 001070747          RLWATHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVTAQNFCEKFCQCSSECQNRFPGCRC
+Octopus sinensis XP 029645707     RLWSMHCRKIQLKKDSVSNPVYNYQPCDHPGQRCDDTCPCIVAQNFCEKFCQCSSDCQNRFPGCRC
+Callorhinchus milii XP 007904509  RLWAAHCRKIQLKKDGSSNHVYNYQPCDHPRQPCDSSCPCVMAQNFCEKFCQCSSECQNRFPGCRC
+Hydra vulgaris XP 012555810       RSWANHCKKVQMKKENSASMLIGYYPCEHPGQPCNASCPCIFNHNFCEKFCQCSLDCQNRFPGCRC
+Asterias rubens XP 033629619      RMWSMHCRKIQLKKDSTASHVYNYQPCDHPGKPCDAECSCIMLQNFCEKYCQCTSDCQNRFPGCRC
+Strongylocentrotus purpuratus XP  KLWSMHCRKIQLKKDNSSTHVYNYQPCDHPGKPCDADCTCIMLQNFCEKFCQCSPECQNRFPGCRC
+Trichinella pseudospiralis KRZ46  VLYSSGSSDSDSDWDSDGEGMEAYKPCYCRGRCRDNSNCSCNEREYCEKYCRCSDNCSKRYLGCNC
+Caenorhabditis elegans NP 496992  RDSQRNSEKVRMTAVTPITACRHAGPCNATAENCACR-----ENGVCSYMCKCDINCSQRFPGCNC
+Tcas EZH2 protein                 RLWSVHCRKIQLKKESNSNHVYNFTPCDHPGQSCDTQCPCIGAQNFCEKFCQCSSDCQNRFPGCRC
+Dpon EZH2ortho protein            RLWSMHCRKIQLKKDSSSNHVYNFTPCDHPGQNCDNNCPCIGAQNFCEKFCQCSSDCQNRFPGCRC
+Agla EZH2orth protein             RLWSMHCRKIQLKKESNSNHVYNFTPCDHPGQNCDHNCPCIGAQNFCEKFCQCSSDCQNRFPGCRC
+
+Input data matrix (continued):
+
+                                  5    6                                                           6
+                                  9    0         1         2         3         4         5         6
+Taxon                             567890123456789012345678901234567890123456789012345678901234567890
+----------------------------------------------------------------------------------------------------
+Eudyptes sclateri KAF1525276      KA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIF
+Anolis carolinensis XP 016849929  KA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIF
+Drosophilia melanogaster FBtr007  KA-QCNTKQCPCYLAVRECDPDLCQACGAD-QFKLTKITCKNVCVQRGLHKHLLMAPSDIAGWGIF
+Pan troglodytes XP 009452721      KA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIF
+Macaca mulatta NP 001253432       KA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIF
+XP 003432121 Canis lupus familia  KA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIF
+XP 023495668 Equus caballus       KA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIF
+Mus musculus NP 031997            KA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIF
+Xenopus tropicalis XP 012820251   KA-QCNTKQCPCYLAVRECDPDLCLTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIF
+Danio rerio NP 001070747          KA-QCNTKQCPCYLAVRECDPDLCLTCGAAEHWDSKNVSCKNCSIQRGAKKHLLLAPSDVAGWGIF
+Octopus sinensis XP 029645707     KA-QCNTKQCPCFLAVRECDPDLCQTCGAD-QFDTQKISCKNVSVQRGLRKHLLLAPSEVAGWGIF
+Callorhinchus milii XP 007904509  KA-QCNTKQCPCYLAVRECDPDLCQTCGAADHWDSKNVSCKNCSIQRGSKKHLLLAPSDVAGWGIF
+Hydra vulgaris XP 012555810       KA-QCCTKACPCYLAVRECDPDICKTCGADFEVESHESSCKNVGLQRSWR----------------
+Asterias rubens XP 033629619      KA-QCNTKQCPCYLAVRECDPDLCGTCGASEHADSDNISCKNVSLQRGWKKHLLLAPSDVAGWGIF
+Strongylocentrotus purpuratus XP  KA-QCNTKQCPCYLAVRECDPDLCQTCGATDKSTSESISCKNVSLQRGWKRHLLLAPSDVAGWGIY
+Trichinella pseudospiralis KRZ46  KG-VCHRKVCLCMKNNRECDPTLCKNCGGN-----QLLICKNDFMQNGIRRRLYVCESNVHGLGLF
+Caenorhabditis elegans NP 496992  AAGQCYTKACQCYRANWECNPMTCNMCKCD-AIDSNIIKCRNFGMTRMIQKRTYCGPSKIAGNGLF
+Tcas EZH2 protein                 KA-QCNTKQCPCYLAVRECDPDLCQTCGAD-QFDISKITCKNVSVQRGLHKHLLMAPSDVAGWGIF
+Dpon EZH2ortho protein            KA-QCNTKQCPCYLAVRECDPDLCQTCGAD-QFDITKITCKNVSVQRGLHKHLLMAPSDVAGWGIF
+Agla EZH2orth protein             KA-QCNTKQCPCYLAVRECDPDLCQTCGAD-QFDITKITCKNVSVQRGLHKHLLMAPSDVAGWGIF
+
+Input data matrix (continued):
+
+                                  6                                      7                         7
+                                  6        7         8         9         0         1         2     2
+Taxon                             123456789012345678901234567890123456789012345678901234567890123456
+----------------------------------------------------------------------------------------------------
+Eudyptes sclateri KAF1525276      IKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VN
+Anolis carolinensis XP 016849929  IKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VN
+Drosophilia melanogaster FBtr007  LKEGAQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-IN
+Pan troglodytes XP 009452721      IKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VN
+Macaca mulatta NP 001253432       IKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VN
+XP 003432121 Canis lupus familia  IKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VN
+XP 023495668 Equus caballus       IKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VN
+Mus musculus NP 031997            IKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VN
+Xenopus tropicalis XP 012820251   IKDPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VN
+Danio rerio NP 001070747          IKEPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VN
+Octopus sinensis XP 029645707     LKVSAEKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-IN
+Callorhinchus milii XP 007904509  IKEPVQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-VN
+Hydra vulgaris XP 012555810       -----------------------------------------MNNEKKLSLSQPS---PLVNVA-TA
+Asterias rubens XP 033629619      IKQSAQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-NS
+Strongylocentrotus purpuratus XP  ITVPVMKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-NM
+Trichinella pseudospiralis KRZ46  TTEDIVAGDFICEYRGEILTKAEAQRRGKIYDSRGMSFLFMLNTDFDLDATRFGSVARFINHS-KI
+Caenorhabditis elegans NP 496992  LLEPAEKDEFITEYTGERISDDEAERRGAIYDRYQCSYIFNIETGGAIDSYKIGNLARFANHDSKN
+Tcas EZH2 protein                 LKDSAQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-IN
+Dpon EZH2ortho protein            LKDSAQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-IN
+Agla EZH2orth protein             LKDSAQKNEFISEYCGEIISQDEADRRGKVYDKYMCSFLFNLNNDFVVDATRKGNKIRFANHS-IN
+
+Input data matrix (continued):
+
+                                  7                                                    7
+                                  2  3         4         5         6         7         8
+Taxon                             789012345678901234567890123456789012345678901234567890
+----------------------------------------------------------------------------------------
+Eudyptes sclateri KAF1525276      PNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP
+Anolis carolinensis XP 016849929  PNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP
+Drosophilia melanogaster FBtr007  PNCYAKVMMVTGDHRIGIFAKRAIQPGEELFFDYRYGPTEQLKFVGIEREMEIV
+Pan troglodytes XP 009452721      PNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP
+Macaca mulatta NP 001253432       PNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP
+XP 003432121 Canis lupus familia  PNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP
+XP 023495668 Equus caballus       PNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP
+Mus musculus NP 031997            PNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP
+Xenopus tropicalis XP 012820251   PNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP
+Danio rerio NP 001070747          PNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP
+Octopus sinensis XP 029645707     PNCYAKVMMVNGDHRIGIFAKRPIQAGEELFFDYRYGPTEQLKFVGIERDNEVS
+Callorhinchus milii XP 007904509  PNCYAKVMMVNGDHRIGIFAKRAIQTGEELFFDYRYSQADALKYVGIEREMEIP
+Hydra vulgaris XP 012555810       P---LHVLPISVD-----------------------------------------
+Asterias rubens XP 033629619      PNCYAKVMMVNGDHRIGIFAKRPIQTGEELFFDYRYSATDALKYVGIEREMDVP
+Strongylocentrotus purpuratus XP  PNCYAKVMMVNGDHRIGIFAKRNIQTGEELFFDYRYGPTDALKYVGIEREMDIL
+Trichinella pseudospiralis KRZ46  PNCVPQVKMVLGSHRIAFYATRNIEANEELFFNYGVLPECVKLLLERLS-----
+Caenorhabditis elegans NP 496992  PTCYARTMVVAGEHRIGFYAKRRLEISEELTFDYSYSGEHQIAFRMVQTKERSE
+Tcas EZH2 protein                 PNCYAKVMMVNGDHRIGIFAKRAIQPGEELFFDYRYGPTEQLKFVGIEREMEFL
+Dpon EZH2ortho protein            PNCYAKVMMVNGDHRIGIFAKRAIQPGEELFFDYRYGPTEQLKFVGIEREMEFL
+Agla EZH2orth protein             PNCYAKVMMVNGDHRIGIFAKRPIQPDMDLQNN---------------------
+
+paup> bootstrap bseed=10 nreps=1000 method=bandb conlevel=50 keepall;
+
+Bootstrap method with branch-and-bound search:
+  Number of bootstrap replicates = 1000
+  Starting seed = 10
+  Number of characters resampled in each replicate = 780
+  Optimality criterion = parsimony
+    Character-status summary:
+      Of 780 total characters:
+        All characters are of type 'unord'
+        All characters have equal weight
+        71 characters are constant (proportion = 0.0910256)
+        307 variable characters are parsimony-uninformative
+        Number of parsimony-informative characters = 402
+    Gaps are treated as "missing"
+  Initial upper bound: unknown (compute heuristically)
+  Addition sequence: furthest
+  Initial 'Maxtrees' setting = 100
+  Branches collapsed (creating polytomies) if maximum branch length is zero
+  'MulTrees' option in effect
+  No topological constraints in effect
+  Trees are unrooted
+
+Do you really want to stop the search? (Y/n)n
+
+Do you really want to stop the search? (Y/n)y
+
+  Bootstrap aborted after 560 replicates
+  Time used = 05:34:38 (CPU time = 05:34:20.8)
+
+Bootstrap 50% majority-rule consensus tree
+   (plus other groups compatible with this tree)
+
+                                      /------------------------ Eudyptes sclateri KAF1525276(1)
+                                      |
+                                      |    /------------------- Anolis carolinensis XP 016849929(2)
+                                 /-61-+    |
+                                 |    |    |             /----- Pan troglodytes XP 009452721(4)
+                                 |    |    |        /-85-+
+                                 |    \-46-+        |    \----- Macaca mulatta NP 001253432(5)
+                                 |         |    /75-+
+                             /100+         |    |   |    /----- XP 003432121 Canis lupus familia(6)
+                             |   |         |    |   \-43-+
+                             |   |         \-88-+        \----- XP 023495668 Equus caballus(7)
+                             |   |              |
+                        /-60-+   |              \-------------- Mus musculus NP 031997(8)
+                        |    |   |
+                        |    |   \----------------------------- Xenopus tropicalis XP 012820251(9)
+                   /100-+    |
+                   |    |    \--------------------------------- Danio rerio NP 001070747(10)
+                   |    |
+              /-70-+    \-------------------------------------- Callorhinchus milii XP 007904509(12)
+              |    |
+              |    |                                     /----- Asterias rubens XP 033629619(14)
+          /54-+    \-----------------99------------------+
+          |   |                                          \----- Strongylocentrotus purpuratus XP(15)
+          |   |
+     /-85-+   \------------------------------------------------ Octopus sinensis XP 029645707(11)
+     |    |
+     |    |                                     /-------------- Drosophilia melanogaster FBtr007(3)
+     |    |                                     |
+     |    \-----------------99------------------+   /---------- Tcas EZH2 protein(18)
+     |                                          |   |
+/----+                                          \100+    /----- Dpon EZH2ortho protein(19)
+|    |                                              \-81-+
+|    |                                                   \----- Agla EZH2orth protein(20)
+|    |
+|    |                                                   /----- Trichinella pseudospiralis KRZ46(16)
+|    \------------------------99-------------------------+
+|                                                        \----- Caenorhabditis elegans NP 496992(17)
+|
+\-------------------------------------------------------------- Hydra vulgaris XP 012555810(13)
+
+Bipartitions found in one or more trees and frequency of occurrence (bootstrap support values):
+
+         1         2
+12345678901234567890          Freq        %
+-------------------------------------------
+.................***        560.00  100.00%
+..*.......*.********        560.00  100.00%
+..*......***********        559.67   99.94%
+.............**.....        557.17   99.49%
+..*..............***        557.10   99.48%
+...............**...        556.50   99.38%
+...*****............        494.88   88.37%
+...**...............        475.80   84.96%
+............*..**...        474.96   84.81%
+..................**        451.10   80.55%
+...****.............        421.75   75.31%
+..*.......*.*..*****        391.29   69.87%
+..*.....************        342.80   61.21%
+..*.......**********        336.22   60.04%
+..*.........*..*****        301.42   53.82%
+.*.*****............        257.72   46.02%
+.....**.............        241.48   43.12%
+.........*.*........        206.20   36.82%
+...***..............        205.80   36.75%
+..******.***********        203.84   36.40%
+..*.......*......***        203.17   36.28%
+.*******.***********        169.22   30.22%
+..******************        138.15   24.67%
+..........*..**.....        115.21   20.57%
+.................*.*        108.90   19.45%
+......**............         41.39    7.39%
+..*.......*.*....***         35.33    6.31%
+..*.........*....***         29.46    5.26%
+
+56 groups at (relative) frequency less than 5% not shown
+
+paup> export data
+
+Error(#143): Keyword "data" is not recognized.
+                 If the keyword is valid for the current command and it is spelled correctly, look
+                 for problems in a previous command, such as a missing semicolon.
+
+paup>  quit
+
+Warning: there are unsaved trees.  Do you want to quit anyway? (Y/n)n
+
+paup> export trees MP_tree.trees
+
+Error(#143): Keyword "trees" is not recognized.
+                 If the keyword is valid for the current command and it is spelled correctly, look
+                 for problems in a previous command, such as a missing semicolon.
+
+paup> export MP_tree.trees
+
+Error(#143): Keyword "MP tree.trees" is not recognized.
+                 If the keyword is valid for the current command and it is spelled correctly, look
+                 for problems in a previous command, such as a missing semicolon.
+
+paup> export file=MP_tree.trees trees=YES
+
+Error(#143): Keyword "trees" is not recognized.
+                 If the keyword is valid for the current command and it is spelled correctly, look
+                 for problems in a previous command, such as a missing semicolon.
+
+paup> export file=MP_tree.trees
+
+Data matrix exported to file "~/Desktop/Bioinformatics/beetles/beetles/MP_tree.trees" in Relaxed
+PHYLIP format.
+
+paup> quit
+
+Warning: there are unsaved trees.  Do you want to quit anyway? (Y/n)y
