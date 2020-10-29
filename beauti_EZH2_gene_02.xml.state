@@ -1,0 +1,31 @@
+<itsabeastystatewerein version='2.0' sample='25000000'>
+<statenode id='Tree.t:bird_reptile_fly_mega_aligntrim'>((((((((0:0.07150364971498377,6:0.07150364971498377)34:0.06750049883536194,15:0.1390041485503457)20:0.12649073631839325,7:0.26549488486873896)24:0.468173813195221,12:0.73366869806396)27:0.3795198083878031,((((((1:0.01699491705846283,8:0.01699491705846283)30:0.00782646789326992,(((10:4.172390748516876E-4,13:4.172390748516876E-4)29:0.007776670566002142,(17:0.002811398654956816,18:0.002811398654956816)25:0.005382510985897013)28:0.003081090191839159,11:0.011274999832692988)36:0.013546385119039762)33:0.045851681196000665,19:0.07067306614773342)21:0.12529344975074494,5:0.19596651589847836)26:0.016485681955473258,4:0.2124521978539516)32:0.6794596262493208,(2:0.5697100623703707,14:0.5697100623703707)22:0.3222017617329017)37:0.22127668234849063)35:0.027935376324126793,9:1.1411238827758898)23:2.405322799995197,16:3.546446682771087)31:5.480124768176118,3:9.026571450947205)38:0.0</statenode>
+<statenode id='mutationRate.s:bird_reptile_fly_mega_aligntrim'>mutationRate.s:bird_reptile_fly_mega_aligntrim[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='gammaShape.s:bird_reptile_fly_mega_aligntrim'>gammaShape.s:bird_reptile_fly_mega_aligntrim[1 1] (0.001,1000.0): 0.5904839623988375 </statenode>
+<statenode id='indicators.alltrees'>indicators.alltrees[19 1] (null,true): false false false false false false true false false false false false false false false false false false true </statenode>
+<statenode id='populationMean.alltrees'>populationMean.alltrees[1 1] (-Infinity,Infinity): 0.6128062257381993 </statenode>
+<statenode id='popSizes.alltrees'>popSizes.alltrees[20 1] (-Infinity,Infinity): 0.9234348378305843 0.5537988153359384 0.44878568026029325 0.4511917473937509 0.11572698094904915 0.3835525882293769 1.102758893069941 3.4496474365880037 0.06459124551250195 1.1303615961339877 0.14503573255287927 0.05551917630356121 0.691769115229563 0.03559892777777813 1.961491957462712 0.18415658393916984 0.6274845043759657 0.46775515124496636 0.5409290361826975 6.162485263723236E-118 </statenode>
+<statenode id='ucldStdev.c:bird_reptile_fly_mega_aligntrim'>ucldStdev.c:bird_reptile_fly_mega_aligntrim[1 1] (0.0,Infinity): 0.6733280221514458 </statenode>
+<statenode id='rateCategories.c:bird_reptile_fly_mega_aligntrim'>rateCategories.c:bird_reptile_fly_mega_aligntrim[38 1] (0,37): 25 30 15 25 9 19 33 35 9 36 7 19 17 24 13 7 37 4 3 6 26 6 27 12 21 9 34 3 24 13 33 3 11 4 15 29 24 6 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"FixMeanMutationRatesOperator","p":8283.380760343822,"accept":290272,"reject":0,"acceptFC":289832,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"gammaShapeScaler.s:bird_reptile_fly_mega_aligntrim","p":0.7132637400708925,"accept":2613,"reject":11836,"acceptFC":2608,"rejectFC":11825,"rejectIv":0,"rejectOp":0},
+{"id":"ExtendedBayesianSkylineTreeScaler.t:bird_reptile_fly_mega_aligntrim","p":0.704197308142431,"accept":94759,"reject":339843,"acceptFC":94680,"rejectFC":339243,"rejectIv":0,"rejectOp":0},
+{"id":"ExtendedBayesianSkylineTreeRootScaler.t:bird_reptile_fly_mega_aligntrim","p":0.5346192482841403,"accept":86389,"reject":349862,"acceptFC":86278,"rejectFC":349343,"rejectIv":69753,"rejectOp":11761},
+{"id":"ExtendedBayesianSkylineUniformOperator.t:bird_reptile_fly_mega_aligntrim","p":"NaN","accept":1074156,"reject":3284595,"acceptFC":1072636,"rejectFC":3279515,"rejectIv":91816,"rejectOp":0},
+{"id":"ExtendedBayesianSkylineSubtreeSlide.t:bird_reptile_fly_mega_aligntrim","p":0.6044850748495061,"accept":210315,"reject":1968237,"acceptFC":210097,"rejectFC":1965232,"rejectIv":794685,"rejectOp":775036},
+{"id":"ExtendedBayesianSkylineNarrow.t:bird_reptile_fly_mega_aligntrim","p":"NaN","accept":104485,"reject":2076226,"acceptFC":104187,"rejectFC":2073251,"rejectIv":0,"rejectOp":0},
+{"id":"ExtendedBayesianSkylineWide.t:bird_reptile_fly_mega_aligntrim","p":"NaN","accept":934,"reject":434638,"acceptFC":929,"rejectFC":433994,"rejectIv":223480,"rejectOp":223480},
+{"id":"ExtendedBayesianSkylineWilsonBalding.t:bird_reptile_fly_mega_aligntrim","p":"NaN","accept":903,"reject":436375,"acceptFC":901,"rejectFC":435707,"rejectIv":100410,"rejectOp":83029},
+{"id":"bitflip.alltrees","p":"NaN","accept":143180,"reject":4212279,"acceptFC":142847,"rejectFC":4205985,"rejectIv":8139,"rejectOp":0},
+{"id":"indicatorSampler.alltrees","p":"NaN","accept":701534,"reject":1479914,"acceptFC":701192,"rejectFC":1476990,"rejectIv":0,"rejectOp":0},
+{"id":"indicatorScaler.alltrees","p":0.21956052858974817,"accept":650452,"reject":1527953,"acceptFC":648784,"rejectFC":1526363,"rejectIv":0,"rejectOp":0},
+{"id":"EBSPupDownOperator.alltrees","p":0.32579864540758735,"accept":185060,"reject":539917,"acceptFC":184313,"rejectFC":539558,"rejectIv":0,"rejectOp":0},
+{"id":"ucldStdevScaler.c:bird_reptile_fly_mega_aligntrim","p":0.697347715816277,"accept":109847,"reject":325625,"acceptFC":109800,"rejectFC":325024,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:bird_reptile_fly_mega_aligntrim","p":"NaN","accept":835692,"reject":615508,"acceptFC":834620,"rejectFC":614366,"rejectIv":511486,"rejectOp":511486},
+{"id":"CategoriesSwapOperator.c:bird_reptile_fly_mega_aligntrim","p":"NaN","accept":427386,"reject":1027169,"acceptFC":427033,"rejectFC":1025385,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:bird_reptile_fly_mega_aligntrim","p":"NaN","accept":644392,"reject":807655,"acceptFC":643846,"rejectFC":806060,"rejectIv":0,"rejectOp":0}
+]}
+-->
