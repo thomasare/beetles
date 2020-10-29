@@ -1,0 +1,56 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Wed Oct 28 19:25:54 2020]
+[!
+>Data file = bird_reptile_fly.nexus
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 1000
+>  Starting seed = 89
+>  Number of characters resampled in each replicate = 780
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 780 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        71 characters are constant (proportion = 0.0910256)
+>        307 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 402
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: simple (reference taxon = Eudyptes sclateri KAF1525276)
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  'Maxtrees' setting = 100 (will not be increased)
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>  1000 bootstrap replicates completed
+>  Time used = 20.84 sec (CPU time = 20.81 sec)
+]
+	Translate
+		1 Eudyptes_sclateri_KAF1525276,
+		2 Anolis_carolinensis_XP_016849929,
+		3 Drosophilia_melanogaster_FBtr0076279,
+		4 Pan_troglodytes_XP_009452721,
+		5 Macaca_mulatta_NP_001253432,
+		6 XP_003432121_Canis_lupus_familiaris,
+		7 XP_023495668_Equus_caballus,
+		8 Mus_musculus_NP_031997,
+		9 Xenopus_tropicalis_XP_012820251,
+		10 Danio_rerio_NP_001070747,
+		11 Octopus_sinensis_XP_029645707,
+		12 Callorhinchus_milii_XP_007904509,
+		13 Hydra_vulgaris_XP_012555810,
+		14 Asterias_rubens_XP_033629619,
+		15 Strongylocentrotus_purpuratus_XP_030830157,
+		16 Trichinella_pseudospiralis_KRZ46305,
+		17 Caenorhabditis_elegans_NP_496992,
+		18 Tcas_EZH2_protein,
+		19 Dpon_EZH2ortho_protein,
+		20 Agla_EZH2orth_protein
+		;
+tree 'PAUP_1' = [&U] (1:100,2:100,(((((((3:100,(18:100,(19:100,20:100):79.329):100):98.775,(13:100,(16:100,17:100):99.267):88.075):51.588,11:100):66.975,(14:100,15:100):98.85):100,12:100):61.714,10:100):99.775,9:100):61.48,(((4:100,5:100):84.486,6:100,7:100):73.918,8:100):88.947);
+End;

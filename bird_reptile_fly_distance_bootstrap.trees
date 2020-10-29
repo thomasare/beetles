@@ -1,0 +1,49 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Wed Oct 28 19:03:07 2020]
+[!
+>Data file = bird_reptile_fly.nexus
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 1000
+>  Starting seed = generated automatically
+>  Number of characters resampled in each replicate = 780
+>  Optimality criterion = distance (unweighted least squares (power=0))
+>    Negative branch lengths allowed, but set to zero for tree-score calculation
+>    Distance measure = total character difference
+>    All characters have equal weight
+>  Starting tree(s) obtained via neighbor-joining
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  'Maxtrees' setting = 100 (will not be increased)
+>  Zero-length branches not collapsed
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>  1000 bootstrap replicates completed
+>  Time used = 18.75 sec (CPU time = 18.75 sec)
+]
+	Translate
+		1 Eudyptes_sclateri_KAF1525276,
+		2 Anolis_carolinensis_XP_016849929,
+		3 Drosophilia_melanogaster_FBtr0076279,
+		4 Pan_troglodytes_XP_009452721,
+		5 Macaca_mulatta_NP_001253432,
+		6 XP_003432121_Canis_lupus_familiaris,
+		7 XP_023495668_Equus_caballus,
+		8 Mus_musculus_NP_031997,
+		9 Xenopus_tropicalis_XP_012820251,
+		10 Danio_rerio_NP_001070747,
+		11 Octopus_sinensis_XP_029645707,
+		12 Callorhinchus_milii_XP_007904509,
+		13 Hydra_vulgaris_XP_012555810,
+		14 Asterias_rubens_XP_033629619,
+		15 Strongylocentrotus_purpuratus_XP_030830157,
+		16 Trichinella_pseudospiralis_KRZ46305,
+		17 Caenorhabditis_elegans_NP_496992,
+		18 Tcas_EZH2_protein,
+		19 Dpon_EZH2ortho_protein,
+		20 Agla_EZH2orth_protein
+		;
+tree 'PAUP_1' = [&U] (1:100,2:100,(((((((3:100,((18:100,20:100):95.3,19:100):100):96.9,11:100):82.6,(13:100,(16:100,17:100):99.9):73.2):81.1,(14:100,15:100):95):100,12:100):63,10:100):100,9:100):99.8,(((4:100,5:100):79.883,(6:100,7:100):70.833):98.6,8:100):97.05);
+End;
