@@ -1,0 +1,26 @@
+<itsabeastystatewerein version='2.0' sample='1000000'>
+<statenode id='Tree.t:EZH2_protein_species_megaalign'>((((((((0:0.03835340106790812,((((2:0.006624079994854455,13:0.006624079994854455)29:0.004713742584390781,(7:0.004222808473349922,19:0.004222808473349922)31:0.007115014105895314)46:0.014524247145686155,15:0.02586206972493139)26:0.0011262889841209996,(6:0.020406164486409754,16:0.020406164486409754)34:0.0065821942226426365)38:0.011365042358855729)43:0.0022866183327065817,18:0.0406400194006147)25:0.06133140313603339,24:0.1019714225366481)40:0.11957146989305642,9:0.2215428924297045)47:0.19088595221902063,8:0.41242884464872515)45:0.4767363953407869,(4:0.34542813848811227,21:0.34542813848811227)30:0.5437371015013998)44:0.1529541469185811,(((((1:0.38690216513030395,(3:0.3211109304206187,(10:0.19558623135699127,23:0.19558623135699127)33:0.12552469906362745)39:0.06579123470968523)42:0.12945641917802952,(11:0.3431290125748546,12:0.3431290125748546)41:0.17322957173347886)37:0.16182006163295382,14:0.6781786459412873)27:0.07550475991007399,20:0.7536834058513613)32:0.20582546582156303,(5:0.32564125603683614,22:0.32564125603683614)35:0.6338676156360882)36:0.08261051523516882)28:0.18252683152271776,17:1.224646218430811)48:0.0</statenode>
+<statenode id='mutationRate.s:EZH2_protein_species_megaalign'>mutationRate.s:EZH2_protein_species_megaalign[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='gammaShape.s:EZH2_protein_species_megaalign'>gammaShape.s:EZH2_protein_species_megaalign[1 1] (0.001,1000.0): 0.6008390745646498 </statenode>
+<statenode id='ucldStdev.c:EZH2_protein_species_megaalign'>ucldStdev.c:EZH2_protein_species_megaalign[1 1] (0.0,Infinity): 0.93498969814619 </statenode>
+<statenode id='rateCategories.c:EZH2_protein_species_megaalign'>rateCategories.c:EZH2_protein_species_megaalign[48 1] (0,47): 14 44 14 25 32 34 47 0 41 18 27 30 46 0 46 29 24 12 13 3 25 30 34 19 10 8 35 3 17 23 20 6 12 18 5 47 32 25 43 37 1 16 7 0 26 2 9 40 </statenode>
+<statenode id='birthRate.t:EZH2_protein_species_megaalign'>birthRate.t:EZH2_protein_species_megaalign[1 1] (-Infinity,Infinity): 2.4428187859884885 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"FixMeanMutationRatesOperator","p":968.3469597651149,"accept":18261,"reject":0,"acceptFC":17596,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"gammaShapeScaler.s:EZH2_protein_species_megaalign","p":0.5443418349157481,"accept":116,"reject":791,"acceptFC":113,"rejectFC":759,"rejectIv":0,"rejectOp":0},
+{"id":"ucldStdevScaler.c:EZH2_protein_species_megaalign","p":0.8076504095656886,"accept":4722,"reject":22244,"acceptFC":4661,"rejectFC":21266,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:EZH2_protein_species_megaalign","p":"NaN","accept":49268,"reject":41781,"acceptFC":47456,"rejectFC":40174,"rejectIv":32024,"rejectOp":32024},
+{"id":"CategoriesSwapOperator.c:EZH2_protein_species_megaalign","p":"NaN","accept":16772,"reject":73912,"acceptFC":16291,"rejectFC":70884,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:EZH2_protein_species_megaalign","p":"NaN","accept":27892,"reject":63084,"acceptFC":27172,"rejectFC":60449,"rejectIv":0,"rejectOp":0},
+{"id":"YuleBirthRateScaler.t:EZH2_protein_species_megaalign","p":0.3727017858407592,"accept":8236,"reject":19152,"acceptFC":7556,"rejectFC":18842,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelTreeScaler.t:EZH2_protein_species_megaalign","p":0.6845041101404801,"accept":4694,"reject":22718,"acceptFC":4571,"rejectFC":21795,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelTreeRootScaler.t:EZH2_protein_species_megaalign","p":0.6573360821729208,"accept":4285,"reject":23303,"acceptFC":4177,"rejectFC":22396,"rejectIv":6720,"rejectOp":6720},
+{"id":"YuleModelUniformOperator.t:EZH2_protein_species_megaalign","p":"NaN","accept":75936,"reject":197150,"acceptFC":73587,"rejectFC":189284,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelSubtreeSlide.t:EZH2_protein_species_megaalign","p":0.4312529360666864,"accept":9122,"reject":126564,"acceptFC":8791,"rejectFC":121684,"rejectIv":45123,"rejectOp":45123},
+{"id":"YuleModelNarrow.t:EZH2_protein_species_megaalign","p":"NaN","accept":15522,"reject":120012,"acceptFC":15048,"rejectFC":115267,"rejectIv":0,"rejectOp":0},
+{"id":"YuleModelWide.t:EZH2_protein_species_megaalign","p":"NaN","accept":116,"reject":27132,"acceptFC":106,"rejectFC":26110,"rejectIv":13883,"rejectOp":13883},
+{"id":"YuleModelWilsonBalding.t:EZH2_protein_species_megaalign","p":"NaN","accept":139,"reject":27077,"acceptFC":129,"rejectFC":26039,"rejectIv":4186,"rejectOp":4186}
+]}
+-->
