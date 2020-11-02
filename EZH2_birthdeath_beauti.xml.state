@@ -1,0 +1,28 @@
+<itsabeastystatewerein version='2.0' sample='5000000'>
+<statenode id='Tree.t:EZH2_protein_megaalign_02'>(((((((((0:0.048030379587453556,18:0.048030379587453556)47:0.013463041232329477,((((2:0.0035892922261806506,13:0.0035892922261806506)35:0.0017768464495463198,(7:8.273368815064599E-4,19:8.273368815064599E-4)26:0.004538801794220511)27:0.015839684592653728,15:0.021205823268380698)37:0.0160434503065862,(6:0.035485769447850084,16:0.035485769447850084)32:0.0017635041271168161)36:0.024244147244816133)41:0.04679324579918585,24:0.10828666661896888)34:0.07539516435724541,9:0.1836818309762143)25:0.3466570436620572,8:0.5303388746382715)33:0.18110030083878192,(4:0.4571315018687159,21:0.4571315018687159)30:0.2543076736083375)39:0.2444457192595969,17:0.9558848947366503)44:0.2813835624633869,(((((1:0.35871933863130595,11:0.35871933863130595)42:0.10383763540800212,(3:0.1729111361274143,(10:0.07358037600335449,23:0.07358037600335449)29:0.09933076012405981)31:0.2896458379118938)38:0.13833649962028782,12:0.6008934736595959)45:0.529233451733887,(5:0.45244452469724333,22:0.45244452469724333)43:0.6776824006962396)40:0.07808821433671342,20:1.2082151397301963)28:0.029053317469840856)46:0.4822645347129437,14:1.719532991912981)48:0.0</statenode>
+<statenode id='mutationRate.s:EZH2_protein_megaalign_02'>mutationRate.s:EZH2_protein_megaalign_02[1 1] (0.0,Infinity): 1.0 </statenode>
+<statenode id='gammaShape.s:EZH2_protein_megaalign_02'>gammaShape.s:EZH2_protein_megaalign_02[1 1] (0.001,1000.0): 0.5356867541379621 </statenode>
+<statenode id='ucldStdev.c:EZH2_protein_megaalign_02'>ucldStdev.c:EZH2_protein_megaalign_02[1 1] (0.0,Infinity): 0.7936946703114068 </statenode>
+<statenode id='rateCategories.c:EZH2_protein_megaalign_02'>rateCategories.c:EZH2_protein_megaalign_02[48 1] (0,47): 11 44 20 30 22 30 46 1 37 25 33 30 43 34 38 16 13 13 0 17 15 23 19 37 8 27 17 3 33 37 36 5 8 15 3 22 19 0 3 20 7 11 25 47 20 2 4 15 </statenode>
+<statenode id='BDBirthRate.t:EZH2_protein_megaalign_02'>BDBirthRate.t:EZH2_protein_megaalign_02[1 1] (0.0,10000.0): 1.3536361248084148 </statenode>
+<statenode id='BDDeathRate.t:EZH2_protein_megaalign_02'>BDDeathRate.t:EZH2_protein_megaalign_02[1 1] (0.0,1.0): 0.3583358706880136 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"gammaShapeScaler.s:EZH2_protein_megaalign_02","p":0.6545882874674058,"accept":818,"reject":3500,"acceptFC":813,"rejectFC":3475,"rejectIv":0,"rejectOp":0},
+{"id":"FixMeanMutationRatesOperator","p":3313.2781000500563,"accept":88207,"reject":0,"acceptFC":87587,"rejectFC":0,"rejectIv":0,"rejectOp":0},
+{"id":"ucldStdevScaler.c:EZH2_protein_megaalign_02","p":0.8241648662235245,"accept":29587,"reject":102980,"acceptFC":29543,"rejectFC":102081,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:EZH2_protein_megaalign_02","p":"NaN","accept":242729,"reject":200366,"acceptFC":241246,"rejectFC":198834,"rejectIv":154162,"rejectOp":154162},
+{"id":"CategoriesSwapOperator.c:EZH2_protein_megaalign_02","p":"NaN","accept":84640,"reject":357314,"acceptFC":84207,"rejectFC":354561,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:EZH2_protein_megaalign_02","p":"NaN","accept":137581,"reject":304117,"acceptFC":136943,"rejectFC":301656,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeScaler.t:EZH2_protein_megaalign_02","p":0.6987529180976894,"accept":25776,"reject":106740,"acceptFC":25691,"rejectFC":105874,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathTreeRootScaler.t:EZH2_protein_megaalign_02","p":0.6560032285581074,"accept":24127,"reject":108098,"acceptFC":24010,"rejectFC":107255,"rejectIv":24724,"rejectOp":24724},
+{"id":"BirthDeathUniformOperator.t:EZH2_protein_megaalign_02","p":"NaN","accept":367283,"reject":958692,"acceptFC":364811,"rejectFC":951701,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathSubtreeSlide.t:EZH2_protein_megaalign_02","p":0.7013502671585866,"accept":29133,"reject":633954,"acceptFC":28717,"rejectFC":629727,"rejectIv":249359,"rejectOp":249359},
+{"id":"BirthDeathNarrow.t:EZH2_protein_megaalign_02","p":"NaN","accept":70739,"reject":592714,"acceptFC":70209,"rejectFC":588720,"rejectIv":0,"rejectOp":0},
+{"id":"BirthDeathWide.t:EZH2_protein_megaalign_02","p":"NaN","accept":414,"reject":132412,"acceptFC":400,"rejectFC":131477,"rejectIv":68149,"rejectOp":68149},
+{"id":"BirthDeathWilsonBalding.t:EZH2_protein_megaalign_02","p":"NaN","accept":496,"reject":132993,"acceptFC":483,"rejectFC":132100,"rejectIv":20376,"rejectOp":20376},
+{"id":"BirthRateScaler.t:EZH2_protein_megaalign_02","p":0.32038508781412717,"accept":38875,"reject":93693,"acceptFC":38156,"rejectFC":93474,"rejectIv":0,"rejectOp":0},
+{"id":"DeathRateScaler.t:EZH2_protein_megaalign_02","p":0.1353547901847216,"accept":24640,"reject":107383,"acceptFC":23900,"rejectFC":107208,"rejectIv":81587,"rejectOp":81587}
+]}
+-->
